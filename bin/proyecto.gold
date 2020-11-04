@@ -1,0 +1,502 @@
+using gold.structures.automaton.*
+using gold.visualization.automaton.*
+var put:int
+var move:int
+var face:int
+var turn:int
+var skipe:int
+var ends:int
+var nope:int
+procedure main ( args : String [ ] ) begin
+	put:=52
+	move:= put+50
+	face:= move+28
+	turn:= face+21
+	skipe:=turn+4
+	ends:=skipe+3
+	Q := (0‥ends)
+	Σ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}','0','1','2','3','4','5','6','7','8','9' }
+	Γ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}' }
+	q := 0 
+	F := 0
+	
+	A := GDeterministicTransducer ( Q , Σ , Γ , q , F , δ , g , h ) 
+	GAutomataFrame.show ( A )
+
+end
+//-----------------------------------------------------------------
+
+	function g (q) begin
+		if q==7 then
+			return 'R'
+		elseif q==11 then
+			return 'V'
+		elseif q==13 then
+			return 'x'
+		elseif q==18 then
+			return 'B'
+		elseif q==24 then
+			return 'A'
+		elseif q==26 then
+			return 'x'
+		elseif q==28 then
+			return 'v'
+		elseif q==30 then
+			return 'P'
+		elseif q==32 then
+			return 'U'
+		elseif q==35 then
+			return 'I'
+		elseif q==move+3 then
+			return 'F'
+		elseif q==move+4 then
+			return 'E'
+		elseif q==move+7 then
+			return 'G'
+		elseif q==move+27 then
+			return 'e'
+		elseif q==move+22 then
+			return 'w'
+		elseif q==move+18 then
+			return 's'
+		elseif q==move+13 then
+			return 'n'
+		elseif q==face+4 then
+			return 'T'
+		elseif q==face+10 then
+			return 'r'
+		elseif q==face+14 then
+			return 'l'
+		elseif q==face+20 then
+			return 'a'
+		elseif q==turn+4 then
+			return 'S'
+		elseif q==put+4 then
+		    return 'm'
+		elseif q==put+12  then
+		    return 'I'
+		elseif q==put+13 || q==put+33 then
+		    return 'D'
+		elseif q==put+15 then
+		    return 'x'
+		elseif q==put+35 then
+		    return 'x'
+		elseif q==skipe+3 then
+			return 'E'
+		end
+	end
+		
+	function δ ( q , σ ) begin
+		if q==0 && σ=='R' then
+			return 1
+		elseif q==1 && σ=='O' then
+			return 2
+		elseif q==2 && σ=='B' then
+			return 3
+		elseif q==3 && σ=='O' then
+			return 4
+		elseif q==4 && σ=='T' then
+			return 5
+		elseif q==5 && σ=='_' then
+			return 6
+		elseif q==6 && σ=='R' then
+			return 7
+		elseif q==7 && σ==λ then
+			return 0
+//-----------------------------------------------------------------
+	elseif q==0 && σ=='V' then
+			return 8
+		elseif q==8 && σ=='A' then
+			return 9
+		elseif q==9 && σ=='R' then
+			return 10
+		elseif q==10 && σ=='S' then
+			return 11
+		elseif q==11 && σ==' ' then
+			return 12
+		elseif q==12 && σ>96 && σ<123  then
+			return 13
+		elseif q==13 && σ==',' then
+			return 12
+		elseif q==13 && σ==λ then
+			return 0
+//-----------------------------------------------------------------
+		elseif q==0 && σ=='B' then
+			return 14
+		elseif q==14 && σ=='E' then
+			return 15
+		elseif q==15 && σ=='G' then
+			return 16
+		elseif q==16 && σ=='I' then
+			return 17
+		elseif q==17 && σ=='N' then
+			return 18
+		elseif q==18 && σ==λ then
+			return 0
+//-----------------------------------------------------------------
+		elseif q==0 && σ=='a' then
+			return 19
+		elseif q==19 && σ=='s' then
+			return 20
+		elseif q==20 && σ=='s' then
+			return 21
+		elseif q==21 && σ=='i' then
+			return 22
+		elseif q==22 && σ=='g' then
+			return 23
+		elseif q==23 && σ=='n' then
+			return 24
+		elseif q==24 && σ=='(' then
+			return 25
+		elseif q==25 && σ>96 && σ<123 then
+			return 26
+		elseif q==26 && σ==',' then
+			return 27
+		elseif q==27 && (σ>47 && σ<58) then
+			return 28
+		elseif q==28 && σ==')' then
+			return 29
+		elseif q==29 && σ==';' then
+			return 0
+//-----------------------------------------------------------------
+		elseif q==0 && σ=='p' then
+			return 30
+		elseif q==30 && σ=='u' then
+			return 31
+		elseif q==31 && σ=='t' then
+			return 32
+		elseif q==30 && σ=='i' then
+			return 33
+		elseif q==33 && σ=='c' then
+			return 34
+		elseif q==34 && σ=='k' then
+			return 35
+		elseif (q==35||q==32) && σ=='(' then
+			return 36
+		elseif q==36 && ((σ>96 && σ<123)||(σ>47 && σ<58)) then
+			return 37
+		elseif q==37 && σ==',' then
+			return 38
+		elseif q==38 && σ=='c' then
+			return 39
+		elseif q==39 && σ=='h' then
+			return 40
+		elseif q==40 && σ=='i' then
+			return 41
+		elseif q==41 && σ=='p' then
+			return 42
+		elseif q==42 && σ=='s' then
+			return 43
+		elseif q==38 && σ=='b' then
+			return 44
+		elseif q==44 && σ=='a' then
+			return 45
+		elseif q==45 && σ=='l' then
+			return 46
+		elseif q==46 && σ=='l' then
+			return 47
+		elseif q==47 && σ=='o' then
+			return 48
+		elseif q==48 && σ=='o' then
+			return 49
+		elseif q==49 && σ=='n' then
+			return 50
+		elseif q==50 && σ=='s' then
+			return 51
+		elseif (q==43||q==51) && σ==')' then
+			return 52
+		elseif q==52 && σ==';' then
+			return 0
+//-----------------------------------------------------------------
+		elseif q==0 && σ=='f' then
+			return move+1
+		elseif q==move+1 && σ=='a' then
+			return move+2
+		elseif q==move+2 && σ=='c' then
+			return move+3
+		elseif q==move+3 && σ=='e' then
+			return move+4
+		elseif q==move+3 && σ=='i' then
+			return move+5
+		elseif q==move+5 && σ=='n' then
+			return move+6
+		elseif q==move+6 && σ=='g' then
+			return move+7
+		elseif (q==move+7 || q==move+4) && σ=='(' then
+			return move+8
+		elseif q==move+8 && σ=='n' then
+			return move+9
+		elseif q==move+9 && σ=='o' then
+			return move+10
+		elseif q==move+10 && σ=='r' then
+			return move+11
+		elseif q==move+11 && σ=='t' then
+			return move+12
+		elseif q==move+12 && σ=='h' then
+			return move+13
+		elseif q==move+8 && σ=='s' then
+			return move+14
+		elseif q==move+14 && σ=='o' then
+			return move+15
+		elseif q==move+15 && σ=='u' then
+			return move+16
+		elseif q==move+16 && σ=='t' then
+			return move+17
+		elseif q==move+17 && σ=='h' then
+			return move+18
+		elseif q==move+8 && σ=='w' then
+			return move+19
+		elseif q==move+19 && σ=='e' then
+			return move+20
+		elseif q==move+20 && σ=='s' then
+			return move+21
+		elseif q==move+21 && σ=='t' then
+			return move+22
+		elseif q==move+8 && σ=='e' then
+			return move+23
+		elseif q==move+23 && σ=='a' then
+			return move+24
+		elseif q==move+25 && σ=='s' then
+			return move+26
+		elseif q==move+26 && σ=='t' then
+			return move+27
+		elseif (q==move+27||q==move+22||q==move+18||q==move+13) && σ==')' then
+			return move+28
+		elseif q==move+28 && σ==';' then
+			return 0
+//-----------------------------------------------------------------
+		elseif q=0 && σ=='t' then
+			return face+1
+		elseif q=face+1 && σ=='u' then
+			return face+2
+		elseif q=face+2 && σ=='r' then
+			return face+3
+		elseif q=face+3 && σ=='n' then
+			return face+4
+		elseif q=face+4 && σ=='(' then
+			return face+5
+		elseif q=face+5 && σ=='r' then
+			return face+6
+		elseif q=face+6 && σ=='i' then
+			return face+7
+		elseif q=face+7 && σ=='g' then
+			return face+8
+		elseif q=face+8 && σ=='h' then
+			return face+9
+		elseif q=face+9 && σ=='t' then
+			return face+10
+		elseif q=face+5 && σ=='l' then
+			return face+11
+		elseif q=face+11 && σ=='e' then
+			return face+12
+		elseif q=face+12 && σ=='f' then
+			return face+13
+		elseif q=face+13 && σ=='t' then
+			return face+14
+		elseif q=face+5 && σ=='a' then
+			return face+15
+		elseif q=face+15 && σ=='r' then
+			return face+16
+		elseif q=face+16 && σ=='o' then
+			return face+17
+		elseif q=face+17 && σ=='u' then
+			return face+18
+		elseif q=face+18 && σ=='n' then
+			return face+19
+		elseif q=face+19 && σ=='d' then
+			return face+20
+		elseif (q==face+10||q==face+14||q==face+20) && σ==')' then
+			return face+21
+		elseif q==face+21 && σ==';' then
+			return 0
+//-----------------------------------------------------------------
+		elseif q=0 && σ=='s' then
+			return turn+1
+		elseif q=turn+1 && σ=='k' then
+			return turn+2
+		elseif q=turn+2 && σ=='i' then
+			return turn+3
+		elseif q=turn+3 && σ=='p' then
+			return turn+4
+		elseif q=turn+4 && σ==';' then
+			return 0
+//-----------------------------------------------------------------
+		elseif q==0 && σ=='m' then
+     		return put+1
+		elseif q==put+1 && σ=='o' then
+	     	return put+2
+		elseif q==put+2 && σ=='v' then
+		    return put+3
+		elseif q==put+3 && σ=='e' then
+		    return put+4
+			 
+		elseif q==put+4 && σ=='(' then
+		    return put+5
+		elseif q==put+5 && ((σ>='0' && σ<='9')||(σ>='a' && σ<='z')) then
+		    return put+6
+		elseif q==put+6 && σ==')' then
+		    return put+7
+		elseif q==put+7 && σ==';' then
+		    return 0
+			 
+		elseif q==put+4 && σ=='I' then
+		    return put+9
+		elseif q==put+9 && σ=='n' then
+		    return put+10	 
+		elseif q==put+10 && σ=='D' then
+		    return put+11
+		elseif q==put+11 && σ=='i' then
+		    return put+12
+		elseif q==put+12 && σ=='r' then
+		    return put+13
+		elseif q==put+13 && σ=='(' then
+		    return put+14
+		elseif q==put+14 && ((σ>='0' && σ<='9')||(σ>='a' && σ<='z')) then
+		    return put+15
+		elseif q==put+15 && σ==',' then
+		    return put+16
+			 
+			 
+		elseif q==put+16 && σ=='n' then
+		    return put+17
+		elseif q==put+17 && σ=='o' then
+		    return put+18
+		elseif q==put+18 && σ=='r' then
+		    return put+19
+		elseif q==put+19 && σ=='t' then
+		    return put+20
+		elseif q==put+20 && σ=='h' then
+		    return put+6
+			 
+		elseif q==put+16 && σ=='s' then
+		    return put+21
+		elseif q==put+21 && σ=='o' then
+		    return put+22
+		elseif q==put+22 && σ=='u' then
+		    return put+23
+		elseif q==put+23 && σ=='t' then
+		    return put+24
+		elseif q==put+24 && σ=='h' then
+		    return put+6
+			 
+		elseif q==put+16 && σ=='w' then
+		    return put+25
+		elseif q==put+25 && σ=='e' then
+		    return put+26
+		elseif q==put+26 && σ=='s' then
+		    return put+27
+		elseif q==put+27 && σ=='t' then
+		    return put+6
+			 
+		elseif q==put+16 && σ=='e' then
+		    return put+28
+		elseif q==put+28 && σ=='a' then
+		    return put+29
+		elseif q==put+29 && σ=='s' then
+		    return put+30
+		elseif q==put+30 && σ=='t' then
+		    return put+6
+			 
+			 
+		elseif q==put+4 && σ=='D' then
+		    return put+31
+		elseif q==put+31 && σ=='i' then
+		    return put+32
+		elseif q==put+32 && σ=='r' then
+		    return put+33
+		elseif q==put+33 && σ=='(' then
+		    return put+34
+		elseif q==put+34 && ((σ>='0' && σ<='9')||(σ>='a' && σ<='z')) then
+		    return put+35
+		elseif q==put+35 && σ==',' then
+		    return put+36
+	 
+		elseif q==put+36 && σ=='f' then
+		    return put+37
+		elseif q==put+37 && σ=='r' then
+		    return put+38
+		elseif q==put+38 && σ=='o' then
+		    return put+39
+		elseif q==put+39 && σ=='n' then
+		    return put+40
+		elseif q==put+40 && σ=='t' then
+		    return put+6
+			 
+		elseif q==put+36 && σ=='r' then
+		    return put+41
+		elseif q==put+41 && σ=='i' then
+		    return put+42
+		elseif q==put+42 && σ=='g' then
+		    return put+43
+		elseif q==put+43 && σ=='h' then
+		    return put+44
+		elseif q==put+44 && σ=='t' then
+		    return put+6
+			 
+		elseif q==put+36 && σ=='l' then
+		    return put+45
+		elseif q==put+45 && σ=='e' then
+		    return put+46
+		elseif q==put+46 && σ=='f' then
+		    return put+47
+		elseif q==put+47 && σ=='t' then
+		    return put+6
+			 
+		elseif q==put+36 && σ=='b' then
+		    return put+48
+		elseif q==put+48 && σ=='a' then
+		    return put+49
+		elseif q==put+49 && σ=='c' then
+		    return put+50
+		elseif q==put+50 && σ=='k' then
+		    return put+6
+//-----------------------------------------------------------------
+	 	elseif q==0 && σ=='E' then
+	 		return skipe+1
+	 	elseif q==skipe+1 && σ=='N' then
+	 		return skipe+2
+	 	elseif q==skipe+2 && σ=='D' then
+	 		return skipe+3
+	 	elseif q==skipe+3 && σ==λ then
+	 		return 0
+	 	end
+	end
+	
+	function h ( q , σ ) begin
+		if σ == '(' then
+			return '('
+		elseif σ == ')' then
+			return ')'
+		elseif σ == '[' then
+			return '['
+		elseif σ == ']' then
+			return ']'
+		elseif σ == '{' then
+			return '{'
+		elseif σ == '}' then
+			return '}'
+		elseif σ == ';' then
+			return ';'
+		elseif σ == ',' then
+			return ','
+		elseif q==put+20 && σ=='h' then
+		    return 'N'
+		elseif q==put+24 && σ=='h' then
+		    return 'S'	
+		elseif q==put+27 && σ=='t' then
+		    return 'W'	
+		elseif q==put+30 && σ=='t' then
+		    return 'E'
+		
+		elseif q==put+40 && σ=='t' then
+		    return 'f'
+		elseif q==put+44 && σ=='t' then
+		    return 'r'
+		elseif q==put+47 && σ=='t' then
+		    return 'l'
+		elseif q==put+50 && σ=='k' then
+		    return 'b'
+		else
+			return λ
+		end
+	end
