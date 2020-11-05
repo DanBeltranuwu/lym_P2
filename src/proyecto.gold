@@ -15,10 +15,10 @@ procedure main ( args : String [ ] ) begin
 	skipe:=turn+4
 	ends:=skipe+3
 	Q := (0‥ends)
-	Σ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}','0','1','2','3','4','5','6','7','8','9' }
+	Σ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}','0','1','2','3','4','5','6','7','8','9',' ' }
 	Γ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}' }
 	q := 0 
-	F := 0
+	F := {0}
 	
 	A := GDeterministicTransducer ( Q , Σ , Γ , q , F , δ , g , h ) 
 	GAutomataFrame.show ( A )
@@ -83,6 +83,8 @@ end
 		    return 'x'
 		elseif q==skipe+3 then
 			return 'E'
+		else
+			return λ
 		end
 	end
 		
@@ -101,7 +103,7 @@ end
 			return 6
 		elseif q==6 && σ=='R' then
 			return 7
-		elseif q==7 && σ==λ then
+		elseif q==7 && σ==' ' then
 			return 0
 //-----------------------------------------------------------------
 	elseif q==0 && σ=='V' then
@@ -114,11 +116,11 @@ end
 			return 11
 		elseif q==11 && σ==' ' then
 			return 12
-		elseif q==12 && σ>96 && σ<123  then
+		elseif q==12 && (σ>='a' && σ<='z') then
 			return 13
 		elseif q==13 && σ==',' then
 			return 12
-		elseif q==13 && σ==λ then
+		elseif q==13 && σ==' ' then
 			return 0
 //-----------------------------------------------------------------
 		elseif q==0 && σ=='B' then
@@ -131,7 +133,7 @@ end
 			return 17
 		elseif q==17 && σ=='N' then
 			return 18
-		elseif q==18 && σ==λ then
+		elseif q==18 && σ==' ' then
 			return 0
 //-----------------------------------------------------------------
 		elseif q==0 && σ=='a' then
@@ -152,7 +154,7 @@ end
 			return 26
 		elseif q==26 && σ==',' then
 			return 27
-		elseif q==27 && (σ>47 && σ<58) then
+		elseif q==27 && (σ>='0' && σ<='9') then
 			return 28
 		elseif q==28 && σ==')' then
 			return 29
@@ -173,7 +175,7 @@ end
 			return 35
 		elseif (q==35||q==32) && σ=='(' then
 			return 36
-		elseif q==36 && ((σ>96 && σ<123)||(σ>47 && σ<58)) then
+		elseif q==36 && ((σ>='0' && σ<='9')||(σ>='a' && σ<='z')) then
 			return 37
 		elseif q==37 && σ==',' then
 			return 38
@@ -265,60 +267,60 @@ end
 		elseif q==move+28 && σ==';' then
 			return 0
 //-----------------------------------------------------------------
-		elseif q=0 && σ=='t' then
+		elseif q==0 && σ=='t' then
 			return face+1
-		elseif q=face+1 && σ=='u' then
+		elseif q==face+1 && σ=='u' then
 			return face+2
-		elseif q=face+2 && σ=='r' then
+		elseif q==face+2 && σ=='r' then
 			return face+3
-		elseif q=face+3 && σ=='n' then
+		elseif q==face+3 && σ=='n' then
 			return face+4
-		elseif q=face+4 && σ=='(' then
+		elseif q==face+4 && σ=='(' then
 			return face+5
-		elseif q=face+5 && σ=='r' then
+		elseif q==face+5 && σ=='r' then
 			return face+6
-		elseif q=face+6 && σ=='i' then
+		elseif q==face+6 && σ=='i' then
 			return face+7
-		elseif q=face+7 && σ=='g' then
+		elseif q==face+7 && σ=='g' then
 			return face+8
-		elseif q=face+8 && σ=='h' then
+		elseif q==face+8 && σ=='h' then
 			return face+9
-		elseif q=face+9 && σ=='t' then
+		elseif q==face+9 && σ=='t' then
 			return face+10
-		elseif q=face+5 && σ=='l' then
+		elseif q==face+5 && σ=='l' then
 			return face+11
-		elseif q=face+11 && σ=='e' then
+		elseif q==face+11 && σ=='e' then
 			return face+12
-		elseif q=face+12 && σ=='f' then
+		elseif q==face+12 && σ=='f' then
 			return face+13
-		elseif q=face+13 && σ=='t' then
+		elseif q==face+13 && σ=='t' then
 			return face+14
-		elseif q=face+5 && σ=='a' then
+		elseif q==face+5 && σ=='a' then
 			return face+15
-		elseif q=face+15 && σ=='r' then
+		elseif q==face+15 && σ=='r' then
 			return face+16
-		elseif q=face+16 && σ=='o' then
+		elseif q==face+16 && σ=='o' then
 			return face+17
-		elseif q=face+17 && σ=='u' then
+		elseif q==face+17 && σ=='u' then
 			return face+18
-		elseif q=face+18 && σ=='n' then
+		elseif q==face+18 && σ=='n' then
 			return face+19
-		elseif q=face+19 && σ=='d' then
+		elseif q==face+19 && σ=='d' then
 			return face+20
 		elseif (q==face+10||q==face+14||q==face+20) && σ==')' then
 			return face+21
 		elseif q==face+21 && σ==';' then
 			return 0
 //-----------------------------------------------------------------
-		elseif q=0 && σ=='s' then
+		elseif q==0 && σ=='s' then
 			return turn+1
-		elseif q=turn+1 && σ=='k' then
+		elseif q==turn+1 && σ=='k' then
 			return turn+2
-		elseif q=turn+2 && σ=='i' then
+		elseif q==turn+2 && σ=='i' then
 			return turn+3
-		elseif q=turn+3 && σ=='p' then
+		elseif q==turn+3 && σ=='p' then
 			return turn+4
-		elseif q=turn+4 && σ==';' then
+		elseif q==turn+4 && σ==';' then
 			return 0
 //-----------------------------------------------------------------
 		elseif q==0 && σ=='m' then
@@ -457,7 +459,9 @@ end
 	 		return skipe+2
 	 	elseif q==skipe+2 && σ=='D' then
 	 		return skipe+3
-	 	elseif q==skipe+3 && σ==λ then
+	 	elseif q==skipe+3 && σ==' ' then
+	 		return 0
+	 	else 
 	 		return 0
 	 	end
 	end
