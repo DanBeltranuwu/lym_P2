@@ -18,7 +18,7 @@ procedure main ( args : String [ ] ) begin
 	Σ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}','0','1','2','3','4','5','6','7','8','9',' ' }
 	Γ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}' }
 	q := 0 
-	F := {0}
+	F := {0, skipe+3,7,13,18}
 	
 	A := GDeterministicTransducer ( Q , Σ , Γ , q , F , δ , g , h ) 
 	GAutomataFrame.show ( A )
@@ -27,14 +27,10 @@ end
 //-----------------------------------------------------------------
 
 	function g (q) begin
-		if q==7 then
-			return 'R'
-		elseif q==11 then
+		if q==11 then
 			return 'V'
 		elseif q==13 then
 			return 'x'
-		elseif q==18 then
-			return 'B'
 		elseif q==24 then
 			return 'A'
 		elseif q==26 then
@@ -81,8 +77,6 @@ end
 		    return 'x'
 		elseif q==put+35 then
 		    return 'x'
-		elseif q==skipe+3 then
-			return 'E'
 		else
 			return λ
 		end
@@ -102,8 +96,6 @@ end
 		elseif q==5 && σ=='_' then
 			return 6
 		elseif q==6 && σ=='R' then
-			return 7
-		elseif q==7 && σ==' ' then
 			return 0
 //-----------------------------------------------------------------
 	elseif q==0 && σ=='V' then
@@ -120,7 +112,7 @@ end
 			return 13
 		elseif q==13 && σ==',' then
 			return 12
-		elseif q==13 && σ==' ' then
+		elseif q==13 && σ!=',' then
 			return 0
 //-----------------------------------------------------------------
 		elseif q==0 && σ=='B' then
@@ -132,8 +124,6 @@ end
 		elseif q==16 && σ=='I' then
 			return 17
 		elseif q==17 && σ=='N' then
-			return 18
-		elseif q==18 && σ==' ' then
 			return 0
 //-----------------------------------------------------------------
 		elseif q==0 && σ=='a' then
@@ -458,8 +448,6 @@ end
 	 	elseif q==skipe+1 && σ=='N' then
 	 		return skipe+2
 	 	elseif q==skipe+2 && σ=='D' then
-	 		return skipe+3
-	 	elseif q==skipe+3 && σ==' ' then
 	 		return 0
 	 	else 
 	 		return 0
@@ -500,6 +488,12 @@ end
 		    return 'l'
 		elseif q==put+50 && σ=='k' then
 		    return 'b'
+		elseif q==6 && σ=='R' then
+			return 'R'
+		elseif q==17 && σ=='N' then
+			return 'B'
+		elseif q==skipe+2 && σ=='D' then
+			return 'E'
 		else
 			return λ
 		end

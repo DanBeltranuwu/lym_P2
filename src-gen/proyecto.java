@@ -112,7 +112,7 @@ public final class proyecto {
       $line=20;
       Object q=$fix(0);
       $line=21;
-      Object F=$fix(GCollections.asSet(0));
+      Object F=$fix(GCollections.asSet(0,$opAdditY(skipe,3),7,13,18));
       $line=23;
       Object A=$fix($invokeConstructor(GDeterministicTransducer.class,new Object[]{Q,\u03A3,\u0393,q,F,new GMethod(proyecto.class,"\u03B4"),new GMethod(proyecto.class,"g"),new GMethod(proyecto.class,"h")}));
       $line=24;
@@ -127,207 +127,183 @@ public final class proyecto {
     Object $result=null;
     $try:try {
       $line=30;
-      if ($opEqualY(q,7)) {
+      if ($opEqualY(q,11)) {
         $line=31;
-        $result='R';
+        $result='V';
         if (true) break $try;
       }
       else {
         $line=32;
-        if ($opEqualY(q,11)) {
+        if ($opEqualY(q,13)) {
           $line=33;
-          $result='V';
+          $result='x';
           if (true) break $try;
         }
         else {
           $line=34;
-          if ($opEqualY(q,13)) {
+          if ($opEqualY(q,24)) {
             $line=35;
-            $result='x';
+            $result='A';
             if (true) break $try;
           }
           else {
             $line=36;
-            if ($opEqualY(q,18)) {
+            if ($opEqualY(q,26)) {
               $line=37;
-              $result='B';
+              $result='x';
               if (true) break $try;
             }
             else {
               $line=38;
-              if ($opEqualY(q,24)) {
+              if ($opEqualY(q,28)) {
                 $line=39;
-                $result='A';
+                $result='v';
                 if (true) break $try;
               }
               else {
                 $line=40;
-                if ($opEqualY(q,26)) {
+                if ($opEqualY(q,30)) {
                   $line=41;
-                  $result='x';
+                  $result='P';
                   if (true) break $try;
                 }
                 else {
                   $line=42;
-                  if ($opEqualY(q,28)) {
+                  if ($opEqualY(q,32)) {
                     $line=43;
-                    $result='v';
+                    $result='U';
                     if (true) break $try;
                   }
                   else {
                     $line=44;
-                    if ($opEqualY(q,30)) {
+                    if ($opEqualY(q,35)) {
                       $line=45;
-                      $result='P';
+                      $result='I';
                       if (true) break $try;
                     }
                     else {
                       $line=46;
-                      if ($opEqualY(q,32)) {
+                      if ($opEqualY(q,$opAdditY(move,3))) {
                         $line=47;
-                        $result='U';
+                        $result='F';
                         if (true) break $try;
                       }
                       else {
                         $line=48;
-                        if ($opEqualY(q,35)) {
+                        if ($opEqualY(q,$opAdditY(move,4))) {
                           $line=49;
-                          $result='I';
+                          $result='E';
                           if (true) break $try;
                         }
                         else {
                           $line=50;
-                          if ($opEqualY(q,$opAdditY(move,3))) {
+                          if ($opEqualY(q,$opAdditY(move,7))) {
                             $line=51;
-                            $result='F';
+                            $result='G';
                             if (true) break $try;
                           }
                           else {
                             $line=52;
-                            if ($opEqualY(q,$opAdditY(move,4))) {
+                            if ($opEqualY(q,$opAdditY(move,27))) {
                               $line=53;
-                              $result='E';
+                              $result='e';
                               if (true) break $try;
                             }
                             else {
                               $line=54;
-                              if ($opEqualY(q,$opAdditY(move,7))) {
+                              if ($opEqualY(q,$opAdditY(move,22))) {
                                 $line=55;
-                                $result='G';
+                                $result='w';
                                 if (true) break $try;
                               }
                               else {
                                 $line=56;
-                                if ($opEqualY(q,$opAdditY(move,27))) {
+                                if ($opEqualY(q,$opAdditY(move,18))) {
                                   $line=57;
-                                  $result='e';
+                                  $result='s';
                                   if (true) break $try;
                                 }
                                 else {
                                   $line=58;
-                                  if ($opEqualY(q,$opAdditY(move,22))) {
+                                  if ($opEqualY(q,$opAdditY(move,13))) {
                                     $line=59;
-                                    $result='w';
+                                    $result='n';
                                     if (true) break $try;
                                   }
                                   else {
                                     $line=60;
-                                    if ($opEqualY(q,$opAdditY(move,18))) {
+                                    if ($opEqualY(q,$opAdditY(face,4))) {
                                       $line=61;
-                                      $result='s';
+                                      $result='T';
                                       if (true) break $try;
                                     }
                                     else {
                                       $line=62;
-                                      if ($opEqualY(q,$opAdditY(move,13))) {
+                                      if ($opEqualY(q,$opAdditY(face,10))) {
                                         $line=63;
-                                        $result='n';
+                                        $result='r';
                                         if (true) break $try;
                                       }
                                       else {
                                         $line=64;
-                                        if ($opEqualY(q,$opAdditY(face,4))) {
+                                        if ($opEqualY(q,$opAdditY(face,14))) {
                                           $line=65;
-                                          $result='T';
+                                          $result='l';
                                           if (true) break $try;
                                         }
                                         else {
                                           $line=66;
-                                          if ($opEqualY(q,$opAdditY(face,10))) {
+                                          if ($opEqualY(q,$opAdditY(face,20))) {
                                             $line=67;
-                                            $result='r';
+                                            $result='a';
                                             if (true) break $try;
                                           }
                                           else {
                                             $line=68;
-                                            if ($opEqualY(q,$opAdditY(face,14))) {
+                                            if ($opEqualY(q,$opAdditY(turn,4))) {
                                               $line=69;
-                                              $result='l';
+                                              $result='S';
                                               if (true) break $try;
                                             }
                                             else {
                                               $line=70;
-                                              if ($opEqualY(q,$opAdditY(face,20))) {
+                                              if ($opEqualY(q,$opAdditY(put,4))) {
                                                 $line=71;
-                                                $result='a';
+                                                $result='m';
                                                 if (true) break $try;
                                               }
                                               else {
                                                 $line=72;
-                                                if ($opEqualY(q,$opAdditY(turn,4))) {
+                                                if ($opEqualY(q,$opAdditY(put,12))) {
                                                   $line=73;
-                                                  $result='S';
+                                                  $result='I';
                                                   if (true) break $try;
                                                 }
                                                 else {
                                                   $line=74;
-                                                  if ($opEqualY(q,$opAdditY(put,4))) {
+                                                  if (($opEqualY(q,$opAdditY(put,13))||$opEqualY(q,$opAdditY(put,33)))) {
                                                     $line=75;
-                                                    $result='m';
+                                                    $result='D';
                                                     if (true) break $try;
                                                   }
                                                   else {
                                                     $line=76;
-                                                    if ($opEqualY(q,$opAdditY(put,12))) {
+                                                    if ($opEqualY(q,$opAdditY(put,15))) {
                                                       $line=77;
-                                                      $result='I';
+                                                      $result='x';
                                                       if (true) break $try;
                                                     }
                                                     else {
                                                       $line=78;
-                                                      if (($opEqualY(q,$opAdditY(put,13))||$opEqualY(q,$opAdditY(put,33)))) {
+                                                      if ($opEqualY(q,$opAdditY(put,35))) {
                                                         $line=79;
-                                                        $result='D';
+                                                        $result='x';
                                                         if (true) break $try;
                                                       }
                                                       else {
-                                                        $line=80;
-                                                        if ($opEqualY(q,$opAdditY(put,15))) {
-                                                          $line=81;
-                                                          $result='x';
-                                                          if (true) break $try;
-                                                        }
-                                                        else {
-                                                          $line=82;
-                                                          if ($opEqualY(q,$opAdditY(put,35))) {
-                                                            $line=83;
-                                                            $result='x';
-                                                            if (true) break $try;
-                                                          }
-                                                          else {
-                                                            $line=84;
-                                                            if ($opEqualY(q,$opAdditY(skipe,3))) {
-                                                              $line=85;
-                                                              $result='E';
-                                                              if (true) break $try;
-                                                            }
-                                                            else {
-                                                              $line=87;
-                                                              $result="";
-                                                              if (true) break $try;
-                                                            }
-                                                          }
-                                                        }
+                                                        $line=81;
+                                                        $result="";
+                                                        if (true) break $try;
                                                       }
                                                     }
                                                   }
@@ -353,7 +329,7 @@ public final class proyecto {
           }
         }
       }
-      $line=89;
+      $line=83;
       $rethrow(new RuntimeException("The function \"g(q:Object)\" did not return a value."));
     }
     catch (Throwable $throwable) {
@@ -365,1237 +341,1213 @@ public final class proyecto {
     int $line=0;
     Object $result=null;
     $try:try {
-      $line=92;
+      $line=86;
       if (($opEqualY(q,0)&&$opEqualY(\u03C3,'R'))) {
-        $line=93;
+        $line=87;
         $result=1;
         if (true) break $try;
       }
       else {
-        $line=94;
+        $line=88;
         if (($opEqualY(q,1)&&$opEqualY(\u03C3,'O'))) {
-          $line=95;
+          $line=89;
           $result=2;
           if (true) break $try;
         }
         else {
-          $line=96;
+          $line=90;
           if (($opEqualY(q,2)&&$opEqualY(\u03C3,'B'))) {
-            $line=97;
+            $line=91;
             $result=3;
             if (true) break $try;
           }
           else {
-            $line=98;
+            $line=92;
             if (($opEqualY(q,3)&&$opEqualY(\u03C3,'O'))) {
-              $line=99;
+              $line=93;
               $result=4;
               if (true) break $try;
             }
             else {
-              $line=100;
+              $line=94;
               if (($opEqualY(q,4)&&$opEqualY(\u03C3,'T'))) {
-                $line=101;
+                $line=95;
                 $result=5;
                 if (true) break $try;
               }
               else {
-                $line=102;
+                $line=96;
                 if (($opEqualY(q,5)&&$opEqualY(\u03C3,'_'))) {
-                  $line=103;
+                  $line=97;
                   $result=6;
                   if (true) break $try;
                 }
                 else {
-                  $line=104;
+                  $line=98;
                   if (($opEqualY(q,6)&&$opEqualY(\u03C3,'R'))) {
-                    $line=105;
-                    $result=7;
+                    $line=99;
+                    $result=0;
                     if (true) break $try;
                   }
                   else {
-                    $line=106;
-                    if (($opEqualY(q,7)&&$opEqualY(\u03C3,' '))) {
-                      $line=107;
-                      $result=0;
+                    $line=101;
+                    if (($opEqualY(q,0)&&$opEqualY(\u03C3,'V'))) {
+                      $line=102;
+                      $result=8;
                       if (true) break $try;
                     }
                     else {
-                      $line=109;
-                      if (($opEqualY(q,0)&&$opEqualY(\u03C3,'V'))) {
-                        $line=110;
-                        $result=8;
+                      $line=103;
+                      if (($opEqualY(q,8)&&$opEqualY(\u03C3,'A'))) {
+                        $line=104;
+                        $result=9;
                         if (true) break $try;
                       }
                       else {
-                        $line=111;
-                        if (($opEqualY(q,8)&&$opEqualY(\u03C3,'A'))) {
-                          $line=112;
-                          $result=9;
+                        $line=105;
+                        if (($opEqualY(q,9)&&$opEqualY(\u03C3,'R'))) {
+                          $line=106;
+                          $result=10;
                           if (true) break $try;
                         }
                         else {
-                          $line=113;
-                          if (($opEqualY(q,9)&&$opEqualY(\u03C3,'R'))) {
-                            $line=114;
-                            $result=10;
+                          $line=107;
+                          if (($opEqualY(q,10)&&$opEqualY(\u03C3,'S'))) {
+                            $line=108;
+                            $result=11;
                             if (true) break $try;
                           }
                           else {
-                            $line=115;
-                            if (($opEqualY(q,10)&&$opEqualY(\u03C3,'S'))) {
-                              $line=116;
-                              $result=11;
+                            $line=109;
+                            if (($opEqualY(q,11)&&$opEqualY(\u03C3,' '))) {
+                              $line=110;
+                              $result=12;
                               if (true) break $try;
                             }
                             else {
-                              $line=117;
-                              if (($opEqualY(q,11)&&$opEqualY(\u03C3,' '))) {
-                                $line=118;
-                                $result=12;
+                              $line=111;
+                              if (($opEqualY(q,12)&&$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))) {
+                                $line=112;
+                                $result=13;
                                 if (true) break $try;
                               }
                               else {
-                                $line=119;
-                                if (($opEqualY(q,12)&&$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))) {
-                                  $line=120;
-                                  $result=13;
+                                $line=113;
+                                if (($opEqualY(q,13)&&$opEqualY(\u03C3,','))) {
+                                  $line=114;
+                                  $result=12;
                                   if (true) break $try;
                                 }
                                 else {
-                                  $line=121;
-                                  if (($opEqualY(q,13)&&$opEqualY(\u03C3,','))) {
-                                    $line=122;
-                                    $result=12;
+                                  $line=115;
+                                  if (($opEqualY(q,13)&&!$opEqualY(\u03C3,','))) {
+                                    $line=116;
+                                    $result=0;
                                     if (true) break $try;
                                   }
                                   else {
-                                    $line=123;
-                                    if (($opEqualY(q,13)&&$opEqualY(\u03C3,' '))) {
-                                      $line=124;
-                                      $result=0;
+                                    $line=118;
+                                    if (($opEqualY(q,0)&&$opEqualY(\u03C3,'B'))) {
+                                      $line=119;
+                                      $result=14;
                                       if (true) break $try;
                                     }
                                     else {
-                                      $line=126;
-                                      if (($opEqualY(q,0)&&$opEqualY(\u03C3,'B'))) {
-                                        $line=127;
-                                        $result=14;
+                                      $line=120;
+                                      if (($opEqualY(q,14)&&$opEqualY(\u03C3,'E'))) {
+                                        $line=121;
+                                        $result=15;
                                         if (true) break $try;
                                       }
                                       else {
-                                        $line=128;
-                                        if (($opEqualY(q,14)&&$opEqualY(\u03C3,'E'))) {
-                                          $line=129;
-                                          $result=15;
+                                        $line=122;
+                                        if (($opEqualY(q,15)&&$opEqualY(\u03C3,'G'))) {
+                                          $line=123;
+                                          $result=16;
                                           if (true) break $try;
                                         }
                                         else {
-                                          $line=130;
-                                          if (($opEqualY(q,15)&&$opEqualY(\u03C3,'G'))) {
-                                            $line=131;
-                                            $result=16;
+                                          $line=124;
+                                          if (($opEqualY(q,16)&&$opEqualY(\u03C3,'I'))) {
+                                            $line=125;
+                                            $result=17;
                                             if (true) break $try;
                                           }
                                           else {
-                                            $line=132;
-                                            if (($opEqualY(q,16)&&$opEqualY(\u03C3,'I'))) {
-                                              $line=133;
-                                              $result=17;
+                                            $line=126;
+                                            if (($opEqualY(q,17)&&$opEqualY(\u03C3,'N'))) {
+                                              $line=127;
+                                              $result=0;
                                               if (true) break $try;
                                             }
                                             else {
-                                              $line=134;
-                                              if (($opEqualY(q,17)&&$opEqualY(\u03C3,'N'))) {
-                                                $line=135;
-                                                $result=18;
+                                              $line=129;
+                                              if (($opEqualY(q,0)&&$opEqualY(\u03C3,'a'))) {
+                                                $line=130;
+                                                $result=19;
                                                 if (true) break $try;
                                               }
                                               else {
-                                                $line=136;
-                                                if (($opEqualY(q,18)&&$opEqualY(\u03C3,' '))) {
-                                                  $line=137;
-                                                  $result=0;
+                                                $line=131;
+                                                if (($opEqualY(q,19)&&$opEqualY(\u03C3,'s'))) {
+                                                  $line=132;
+                                                  $result=20;
                                                   if (true) break $try;
                                                 }
                                                 else {
-                                                  $line=139;
-                                                  if (($opEqualY(q,0)&&$opEqualY(\u03C3,'a'))) {
-                                                    $line=140;
-                                                    $result=19;
+                                                  $line=133;
+                                                  if (($opEqualY(q,20)&&$opEqualY(\u03C3,'s'))) {
+                                                    $line=134;
+                                                    $result=21;
                                                     if (true) break $try;
                                                   }
                                                   else {
-                                                    $line=141;
-                                                    if (($opEqualY(q,19)&&$opEqualY(\u03C3,'s'))) {
-                                                      $line=142;
-                                                      $result=20;
+                                                    $line=135;
+                                                    if (($opEqualY(q,21)&&$opEqualY(\u03C3,'i'))) {
+                                                      $line=136;
+                                                      $result=22;
                                                       if (true) break $try;
                                                     }
                                                     else {
-                                                      $line=143;
-                                                      if (($opEqualY(q,20)&&$opEqualY(\u03C3,'s'))) {
-                                                        $line=144;
-                                                        $result=21;
+                                                      $line=137;
+                                                      if (($opEqualY(q,22)&&$opEqualY(\u03C3,'g'))) {
+                                                        $line=138;
+                                                        $result=23;
                                                         if (true) break $try;
                                                       }
                                                       else {
-                                                        $line=145;
-                                                        if (($opEqualY(q,21)&&$opEqualY(\u03C3,'i'))) {
-                                                          $line=146;
-                                                          $result=22;
+                                                        $line=139;
+                                                        if (($opEqualY(q,23)&&$opEqualY(\u03C3,'n'))) {
+                                                          $line=140;
+                                                          $result=24;
                                                           if (true) break $try;
                                                         }
                                                         else {
-                                                          $line=147;
-                                                          if (($opEqualY(q,22)&&$opEqualY(\u03C3,'g'))) {
-                                                            $line=148;
-                                                            $result=23;
+                                                          $line=141;
+                                                          if (($opEqualY(q,24)&&$opEqualY(\u03C3,'('))) {
+                                                            $line=142;
+                                                            $result=25;
                                                             if (true) break $try;
                                                           }
                                                           else {
-                                                            $line=149;
-                                                            if (($opEqualY(q,23)&&$opEqualY(\u03C3,'n'))) {
-                                                              $line=150;
-                                                              $result=24;
+                                                            $line=143;
+                                                            if ((($opEqualY(q,25)&&$opGreatY(\u03C3,96))&&$opLesstY(\u03C3,123))) {
+                                                              $line=144;
+                                                              $result=26;
                                                               if (true) break $try;
                                                             }
                                                             else {
-                                                              $line=151;
-                                                              if (($opEqualY(q,24)&&$opEqualY(\u03C3,'('))) {
-                                                                $line=152;
-                                                                $result=25;
+                                                              $line=145;
+                                                              if (($opEqualY(q,26)&&$opEqualY(\u03C3,','))) {
+                                                                $line=146;
+                                                                $result=27;
                                                                 if (true) break $try;
                                                               }
                                                               else {
-                                                                $line=153;
-                                                                if ((($opEqualY(q,25)&&$opGreatY(\u03C3,96))&&$opLesstY(\u03C3,123))) {
-                                                                  $line=154;
-                                                                  $result=26;
+                                                                $line=147;
+                                                                if (($opEqualY(q,27)&&$bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9'))))) {
+                                                                  $line=148;
+                                                                  $result=28;
                                                                   if (true) break $try;
                                                                 }
                                                                 else {
-                                                                  $line=155;
-                                                                  if (($opEqualY(q,26)&&$opEqualY(\u03C3,','))) {
-                                                                    $line=156;
-                                                                    $result=27;
+                                                                  $line=149;
+                                                                  if (($opEqualY(q,28)&&$opEqualY(\u03C3,')'))) {
+                                                                    $line=150;
+                                                                    $result=29;
                                                                     if (true) break $try;
                                                                   }
                                                                   else {
-                                                                    $line=157;
-                                                                    if (($opEqualY(q,27)&&$bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9'))))) {
-                                                                      $line=158;
-                                                                      $result=28;
+                                                                    $line=151;
+                                                                    if (($opEqualY(q,29)&&$opEqualY(\u03C3,';'))) {
+                                                                      $line=152;
+                                                                      $result=0;
                                                                       if (true) break $try;
                                                                     }
                                                                     else {
-                                                                      $line=159;
-                                                                      if (($opEqualY(q,28)&&$opEqualY(\u03C3,')'))) {
-                                                                        $line=160;
-                                                                        $result=29;
+                                                                      $line=154;
+                                                                      if (($opEqualY(q,0)&&$opEqualY(\u03C3,'p'))) {
+                                                                        $line=155;
+                                                                        $result=30;
                                                                         if (true) break $try;
                                                                       }
                                                                       else {
-                                                                        $line=161;
-                                                                        if (($opEqualY(q,29)&&$opEqualY(\u03C3,';'))) {
-                                                                          $line=162;
-                                                                          $result=0;
+                                                                        $line=156;
+                                                                        if (($opEqualY(q,30)&&$opEqualY(\u03C3,'u'))) {
+                                                                          $line=157;
+                                                                          $result=31;
                                                                           if (true) break $try;
                                                                         }
                                                                         else {
-                                                                          $line=164;
-                                                                          if (($opEqualY(q,0)&&$opEqualY(\u03C3,'p'))) {
-                                                                            $line=165;
-                                                                            $result=30;
+                                                                          $line=158;
+                                                                          if (($opEqualY(q,31)&&$opEqualY(\u03C3,'t'))) {
+                                                                            $line=159;
+                                                                            $result=32;
                                                                             if (true) break $try;
                                                                           }
                                                                           else {
-                                                                            $line=166;
-                                                                            if (($opEqualY(q,30)&&$opEqualY(\u03C3,'u'))) {
-                                                                              $line=167;
-                                                                              $result=31;
+                                                                            $line=160;
+                                                                            if (($opEqualY(q,30)&&$opEqualY(\u03C3,'i'))) {
+                                                                              $line=161;
+                                                                              $result=33;
                                                                               if (true) break $try;
                                                                             }
                                                                             else {
-                                                                              $line=168;
-                                                                              if (($opEqualY(q,31)&&$opEqualY(\u03C3,'t'))) {
-                                                                                $line=169;
-                                                                                $result=32;
+                                                                              $line=162;
+                                                                              if (($opEqualY(q,33)&&$opEqualY(\u03C3,'c'))) {
+                                                                                $line=163;
+                                                                                $result=34;
                                                                                 if (true) break $try;
                                                                               }
                                                                               else {
-                                                                                $line=170;
-                                                                                if (($opEqualY(q,30)&&$opEqualY(\u03C3,'i'))) {
-                                                                                  $line=171;
-                                                                                  $result=33;
+                                                                                $line=164;
+                                                                                if (($opEqualY(q,34)&&$opEqualY(\u03C3,'k'))) {
+                                                                                  $line=165;
+                                                                                  $result=35;
                                                                                   if (true) break $try;
                                                                                 }
                                                                                 else {
-                                                                                  $line=172;
-                                                                                  if (($opEqualY(q,33)&&$opEqualY(\u03C3,'c'))) {
-                                                                                    $line=173;
-                                                                                    $result=34;
+                                                                                  $line=166;
+                                                                                  if (($bool(($opEqualY(q,35)||$opEqualY(q,32)))&&$opEqualY(\u03C3,'('))) {
+                                                                                    $line=167;
+                                                                                    $result=36;
                                                                                     if (true) break $try;
                                                                                   }
                                                                                   else {
-                                                                                    $line=174;
-                                                                                    if (($opEqualY(q,34)&&$opEqualY(\u03C3,'k'))) {
-                                                                                      $line=175;
-                                                                                      $result=35;
+                                                                                    $line=168;
+                                                                                    if (($opEqualY(q,36)&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
+                                                                                      $line=169;
+                                                                                      $result=37;
                                                                                       if (true) break $try;
                                                                                     }
                                                                                     else {
-                                                                                      $line=176;
-                                                                                      if (($bool(($opEqualY(q,35)||$opEqualY(q,32)))&&$opEqualY(\u03C3,'('))) {
-                                                                                        $line=177;
-                                                                                        $result=36;
+                                                                                      $line=170;
+                                                                                      if (($opEqualY(q,37)&&$opEqualY(\u03C3,','))) {
+                                                                                        $line=171;
+                                                                                        $result=38;
                                                                                         if (true) break $try;
                                                                                       }
                                                                                       else {
-                                                                                        $line=178;
-                                                                                        if (($opEqualY(q,36)&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
-                                                                                          $line=179;
-                                                                                          $result=37;
+                                                                                        $line=172;
+                                                                                        if (($opEqualY(q,38)&&$opEqualY(\u03C3,'c'))) {
+                                                                                          $line=173;
+                                                                                          $result=39;
                                                                                           if (true) break $try;
                                                                                         }
                                                                                         else {
-                                                                                          $line=180;
-                                                                                          if (($opEqualY(q,37)&&$opEqualY(\u03C3,','))) {
-                                                                                            $line=181;
-                                                                                            $result=38;
+                                                                                          $line=174;
+                                                                                          if (($opEqualY(q,39)&&$opEqualY(\u03C3,'h'))) {
+                                                                                            $line=175;
+                                                                                            $result=40;
                                                                                             if (true) break $try;
                                                                                           }
                                                                                           else {
-                                                                                            $line=182;
-                                                                                            if (($opEqualY(q,38)&&$opEqualY(\u03C3,'c'))) {
-                                                                                              $line=183;
-                                                                                              $result=39;
+                                                                                            $line=176;
+                                                                                            if (($opEqualY(q,40)&&$opEqualY(\u03C3,'i'))) {
+                                                                                              $line=177;
+                                                                                              $result=41;
                                                                                               if (true) break $try;
                                                                                             }
                                                                                             else {
-                                                                                              $line=184;
-                                                                                              if (($opEqualY(q,39)&&$opEqualY(\u03C3,'h'))) {
-                                                                                                $line=185;
-                                                                                                $result=40;
+                                                                                              $line=178;
+                                                                                              if (($opEqualY(q,41)&&$opEqualY(\u03C3,'p'))) {
+                                                                                                $line=179;
+                                                                                                $result=42;
                                                                                                 if (true) break $try;
                                                                                               }
                                                                                               else {
-                                                                                                $line=186;
-                                                                                                if (($opEqualY(q,40)&&$opEqualY(\u03C3,'i'))) {
-                                                                                                  $line=187;
-                                                                                                  $result=41;
+                                                                                                $line=180;
+                                                                                                if (($opEqualY(q,42)&&$opEqualY(\u03C3,'s'))) {
+                                                                                                  $line=181;
+                                                                                                  $result=43;
                                                                                                   if (true) break $try;
                                                                                                 }
                                                                                                 else {
-                                                                                                  $line=188;
-                                                                                                  if (($opEqualY(q,41)&&$opEqualY(\u03C3,'p'))) {
-                                                                                                    $line=189;
-                                                                                                    $result=42;
+                                                                                                  $line=182;
+                                                                                                  if (($opEqualY(q,38)&&$opEqualY(\u03C3,'b'))) {
+                                                                                                    $line=183;
+                                                                                                    $result=44;
                                                                                                     if (true) break $try;
                                                                                                   }
                                                                                                   else {
-                                                                                                    $line=190;
-                                                                                                    if (($opEqualY(q,42)&&$opEqualY(\u03C3,'s'))) {
-                                                                                                      $line=191;
-                                                                                                      $result=43;
+                                                                                                    $line=184;
+                                                                                                    if (($opEqualY(q,44)&&$opEqualY(\u03C3,'a'))) {
+                                                                                                      $line=185;
+                                                                                                      $result=45;
                                                                                                       if (true) break $try;
                                                                                                     }
                                                                                                     else {
-                                                                                                      $line=192;
-                                                                                                      if (($opEqualY(q,38)&&$opEqualY(\u03C3,'b'))) {
-                                                                                                        $line=193;
-                                                                                                        $result=44;
+                                                                                                      $line=186;
+                                                                                                      if (($opEqualY(q,45)&&$opEqualY(\u03C3,'l'))) {
+                                                                                                        $line=187;
+                                                                                                        $result=46;
                                                                                                         if (true) break $try;
                                                                                                       }
                                                                                                       else {
-                                                                                                        $line=194;
-                                                                                                        if (($opEqualY(q,44)&&$opEqualY(\u03C3,'a'))) {
-                                                                                                          $line=195;
-                                                                                                          $result=45;
+                                                                                                        $line=188;
+                                                                                                        if (($opEqualY(q,46)&&$opEqualY(\u03C3,'l'))) {
+                                                                                                          $line=189;
+                                                                                                          $result=47;
                                                                                                           if (true) break $try;
                                                                                                         }
                                                                                                         else {
-                                                                                                          $line=196;
-                                                                                                          if (($opEqualY(q,45)&&$opEqualY(\u03C3,'l'))) {
-                                                                                                            $line=197;
-                                                                                                            $result=46;
+                                                                                                          $line=190;
+                                                                                                          if (($opEqualY(q,47)&&$opEqualY(\u03C3,'o'))) {
+                                                                                                            $line=191;
+                                                                                                            $result=48;
                                                                                                             if (true) break $try;
                                                                                                           }
                                                                                                           else {
-                                                                                                            $line=198;
-                                                                                                            if (($opEqualY(q,46)&&$opEqualY(\u03C3,'l'))) {
-                                                                                                              $line=199;
-                                                                                                              $result=47;
+                                                                                                            $line=192;
+                                                                                                            if (($opEqualY(q,48)&&$opEqualY(\u03C3,'o'))) {
+                                                                                                              $line=193;
+                                                                                                              $result=49;
                                                                                                               if (true) break $try;
                                                                                                             }
                                                                                                             else {
-                                                                                                              $line=200;
-                                                                                                              if (($opEqualY(q,47)&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                $line=201;
-                                                                                                                $result=48;
+                                                                                                              $line=194;
+                                                                                                              if (($opEqualY(q,49)&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                $line=195;
+                                                                                                                $result=50;
                                                                                                                 if (true) break $try;
                                                                                                               }
                                                                                                               else {
-                                                                                                                $line=202;
-                                                                                                                if (($opEqualY(q,48)&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                  $line=203;
-                                                                                                                  $result=49;
+                                                                                                                $line=196;
+                                                                                                                if (($opEqualY(q,50)&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                  $line=197;
+                                                                                                                  $result=51;
                                                                                                                   if (true) break $try;
                                                                                                                 }
                                                                                                                 else {
-                                                                                                                  $line=204;
-                                                                                                                  if (($opEqualY(q,49)&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                    $line=205;
-                                                                                                                    $result=50;
+                                                                                                                  $line=198;
+                                                                                                                  if (($bool(($opEqualY(q,43)||$opEqualY(q,51)))&&$opEqualY(\u03C3,')'))) {
+                                                                                                                    $line=199;
+                                                                                                                    $result=52;
                                                                                                                     if (true) break $try;
                                                                                                                   }
                                                                                                                   else {
-                                                                                                                    $line=206;
-                                                                                                                    if (($opEqualY(q,50)&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                      $line=207;
-                                                                                                                      $result=51;
+                                                                                                                    $line=200;
+                                                                                                                    if (($opEqualY(q,52)&&$opEqualY(\u03C3,';'))) {
+                                                                                                                      $line=201;
+                                                                                                                      $result=0;
                                                                                                                       if (true) break $try;
                                                                                                                     }
                                                                                                                     else {
-                                                                                                                      $line=208;
-                                                                                                                      if (($bool(($opEqualY(q,43)||$opEqualY(q,51)))&&$opEqualY(\u03C3,')'))) {
-                                                                                                                        $line=209;
-                                                                                                                        $result=52;
+                                                                                                                      $line=203;
+                                                                                                                      if (($opEqualY(q,0)&&$opEqualY(\u03C3,'f'))) {
+                                                                                                                        $line=204;
+                                                                                                                        $result=$opAdditY(move,1);
                                                                                                                         if (true) break $try;
                                                                                                                       }
                                                                                                                       else {
-                                                                                                                        $line=210;
-                                                                                                                        if (($opEqualY(q,52)&&$opEqualY(\u03C3,';'))) {
-                                                                                                                          $line=211;
-                                                                                                                          $result=0;
+                                                                                                                        $line=205;
+                                                                                                                        if (($opEqualY(q,$opAdditY(move,1))&&$opEqualY(\u03C3,'a'))) {
+                                                                                                                          $line=206;
+                                                                                                                          $result=$opAdditY(move,2);
                                                                                                                           if (true) break $try;
                                                                                                                         }
                                                                                                                         else {
-                                                                                                                          $line=213;
-                                                                                                                          if (($opEqualY(q,0)&&$opEqualY(\u03C3,'f'))) {
-                                                                                                                            $line=214;
-                                                                                                                            $result=$opAdditY(move,1);
+                                                                                                                          $line=207;
+                                                                                                                          if (($opEqualY(q,$opAdditY(move,2))&&$opEqualY(\u03C3,'c'))) {
+                                                                                                                            $line=208;
+                                                                                                                            $result=$opAdditY(move,3);
                                                                                                                             if (true) break $try;
                                                                                                                           }
                                                                                                                           else {
-                                                                                                                            $line=215;
-                                                                                                                            if (($opEqualY(q,$opAdditY(move,1))&&$opEqualY(\u03C3,'a'))) {
-                                                                                                                              $line=216;
-                                                                                                                              $result=$opAdditY(move,2);
+                                                                                                                            $line=209;
+                                                                                                                            if (($opEqualY(q,$opAdditY(move,3))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                              $line=210;
+                                                                                                                              $result=$opAdditY(move,4);
                                                                                                                               if (true) break $try;
                                                                                                                             }
                                                                                                                             else {
-                                                                                                                              $line=217;
-                                                                                                                              if (($opEqualY(q,$opAdditY(move,2))&&$opEqualY(\u03C3,'c'))) {
-                                                                                                                                $line=218;
-                                                                                                                                $result=$opAdditY(move,3);
+                                                                                                                              $line=211;
+                                                                                                                              if (($opEqualY(q,$opAdditY(move,3))&&$opEqualY(\u03C3,'i'))) {
+                                                                                                                                $line=212;
+                                                                                                                                $result=$opAdditY(move,5);
                                                                                                                                 if (true) break $try;
                                                                                                                               }
                                                                                                                               else {
-                                                                                                                                $line=219;
-                                                                                                                                if (($opEqualY(q,$opAdditY(move,3))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                  $line=220;
-                                                                                                                                  $result=$opAdditY(move,4);
+                                                                                                                                $line=213;
+                                                                                                                                if (($opEqualY(q,$opAdditY(move,5))&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                                  $line=214;
+                                                                                                                                  $result=$opAdditY(move,6);
                                                                                                                                   if (true) break $try;
                                                                                                                                 }
                                                                                                                                 else {
-                                                                                                                                  $line=221;
-                                                                                                                                  if (($opEqualY(q,$opAdditY(move,3))&&$opEqualY(\u03C3,'i'))) {
-                                                                                                                                    $line=222;
-                                                                                                                                    $result=$opAdditY(move,5);
+                                                                                                                                  $line=215;
+                                                                                                                                  if (($opEqualY(q,$opAdditY(move,6))&&$opEqualY(\u03C3,'g'))) {
+                                                                                                                                    $line=216;
+                                                                                                                                    $result=$opAdditY(move,7);
                                                                                                                                     if (true) break $try;
                                                                                                                                   }
                                                                                                                                   else {
-                                                                                                                                    $line=223;
-                                                                                                                                    if (($opEqualY(q,$opAdditY(move,5))&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                                      $line=224;
-                                                                                                                                      $result=$opAdditY(move,6);
+                                                                                                                                    $line=217;
+                                                                                                                                    if (($bool(($opEqualY(q,$opAdditY(move,7))||$opEqualY(q,$opAdditY(move,4))))&&$opEqualY(\u03C3,'('))) {
+                                                                                                                                      $line=218;
+                                                                                                                                      $result=$opAdditY(move,8);
                                                                                                                                       if (true) break $try;
                                                                                                                                     }
                                                                                                                                     else {
-                                                                                                                                      $line=225;
-                                                                                                                                      if (($opEqualY(q,$opAdditY(move,6))&&$opEqualY(\u03C3,'g'))) {
-                                                                                                                                        $line=226;
-                                                                                                                                        $result=$opAdditY(move,7);
+                                                                                                                                      $line=219;
+                                                                                                                                      if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                                        $line=220;
+                                                                                                                                        $result=$opAdditY(move,9);
                                                                                                                                         if (true) break $try;
                                                                                                                                       }
                                                                                                                                       else {
-                                                                                                                                        $line=227;
-                                                                                                                                        if (($bool(($opEqualY(q,$opAdditY(move,7))||$opEqualY(q,$opAdditY(move,4))))&&$opEqualY(\u03C3,'('))) {
-                                                                                                                                          $line=228;
-                                                                                                                                          $result=$opAdditY(move,8);
+                                                                                                                                        $line=221;
+                                                                                                                                        if (($opEqualY(q,$opAdditY(move,9))&&$opEqualY(\u03C3,'o'))) {
+                                                                                                                                          $line=222;
+                                                                                                                                          $result=$opAdditY(move,10);
                                                                                                                                           if (true) break $try;
                                                                                                                                         }
                                                                                                                                         else {
-                                                                                                                                          $line=229;
-                                                                                                                                          if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                                            $line=230;
-                                                                                                                                            $result=$opAdditY(move,9);
+                                                                                                                                          $line=223;
+                                                                                                                                          if (($opEqualY(q,$opAdditY(move,10))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                            $line=224;
+                                                                                                                                            $result=$opAdditY(move,11);
                                                                                                                                             if (true) break $try;
                                                                                                                                           }
                                                                                                                                           else {
-                                                                                                                                            $line=231;
-                                                                                                                                            if (($opEqualY(q,$opAdditY(move,9))&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                                              $line=232;
-                                                                                                                                              $result=$opAdditY(move,10);
+                                                                                                                                            $line=225;
+                                                                                                                                            if (($opEqualY(q,$opAdditY(move,11))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                              $line=226;
+                                                                                                                                              $result=$opAdditY(move,12);
                                                                                                                                               if (true) break $try;
                                                                                                                                             }
                                                                                                                                             else {
-                                                                                                                                              $line=233;
-                                                                                                                                              if (($opEqualY(q,$opAdditY(move,10))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                $line=234;
-                                                                                                                                                $result=$opAdditY(move,11);
+                                                                                                                                              $line=227;
+                                                                                                                                              if (($opEqualY(q,$opAdditY(move,12))&&$opEqualY(\u03C3,'h'))) {
+                                                                                                                                                $line=228;
+                                                                                                                                                $result=$opAdditY(move,13);
                                                                                                                                                 if (true) break $try;
                                                                                                                                               }
                                                                                                                                               else {
-                                                                                                                                                $line=235;
-                                                                                                                                                if (($opEqualY(q,$opAdditY(move,11))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                  $line=236;
-                                                                                                                                                  $result=$opAdditY(move,12);
+                                                                                                                                                $line=229;
+                                                                                                                                                if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                                                  $line=230;
+                                                                                                                                                  $result=$opAdditY(move,14);
                                                                                                                                                   if (true) break $try;
                                                                                                                                                 }
                                                                                                                                                 else {
-                                                                                                                                                  $line=237;
-                                                                                                                                                  if (($opEqualY(q,$opAdditY(move,12))&&$opEqualY(\u03C3,'h'))) {
-                                                                                                                                                    $line=238;
-                                                                                                                                                    $result=$opAdditY(move,13);
+                                                                                                                                                  $line=231;
+                                                                                                                                                  if (($opEqualY(q,$opAdditY(move,14))&&$opEqualY(\u03C3,'o'))) {
+                                                                                                                                                    $line=232;
+                                                                                                                                                    $result=$opAdditY(move,15);
                                                                                                                                                     if (true) break $try;
                                                                                                                                                   }
                                                                                                                                                   else {
-                                                                                                                                                    $line=239;
-                                                                                                                                                    if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                                                      $line=240;
-                                                                                                                                                      $result=$opAdditY(move,14);
+                                                                                                                                                    $line=233;
+                                                                                                                                                    if (($opEqualY(q,$opAdditY(move,15))&&$opEqualY(\u03C3,'u'))) {
+                                                                                                                                                      $line=234;
+                                                                                                                                                      $result=$opAdditY(move,16);
                                                                                                                                                       if (true) break $try;
                                                                                                                                                     }
                                                                                                                                                     else {
-                                                                                                                                                      $line=241;
-                                                                                                                                                      if (($opEqualY(q,$opAdditY(move,14))&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                                                        $line=242;
-                                                                                                                                                        $result=$opAdditY(move,15);
+                                                                                                                                                      $line=235;
+                                                                                                                                                      if (($opEqualY(q,$opAdditY(move,16))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                        $line=236;
+                                                                                                                                                        $result=$opAdditY(move,17);
                                                                                                                                                         if (true) break $try;
                                                                                                                                                       }
                                                                                                                                                       else {
-                                                                                                                                                        $line=243;
-                                                                                                                                                        if (($opEqualY(q,$opAdditY(move,15))&&$opEqualY(\u03C3,'u'))) {
-                                                                                                                                                          $line=244;
-                                                                                                                                                          $result=$opAdditY(move,16);
+                                                                                                                                                        $line=237;
+                                                                                                                                                        if (($opEqualY(q,$opAdditY(move,17))&&$opEqualY(\u03C3,'h'))) {
+                                                                                                                                                          $line=238;
+                                                                                                                                                          $result=$opAdditY(move,18);
                                                                                                                                                           if (true) break $try;
                                                                                                                                                         }
                                                                                                                                                         else {
-                                                                                                                                                          $line=245;
-                                                                                                                                                          if (($opEqualY(q,$opAdditY(move,16))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                            $line=246;
-                                                                                                                                                            $result=$opAdditY(move,17);
+                                                                                                                                                          $line=239;
+                                                                                                                                                          if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'w'))) {
+                                                                                                                                                            $line=240;
+                                                                                                                                                            $result=$opAdditY(move,19);
                                                                                                                                                             if (true) break $try;
                                                                                                                                                           }
                                                                                                                                                           else {
-                                                                                                                                                            $line=247;
-                                                                                                                                                            if (($opEqualY(q,$opAdditY(move,17))&&$opEqualY(\u03C3,'h'))) {
-                                                                                                                                                              $line=248;
-                                                                                                                                                              $result=$opAdditY(move,18);
+                                                                                                                                                            $line=241;
+                                                                                                                                                            if (($opEqualY(q,$opAdditY(move,19))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                                                              $line=242;
+                                                                                                                                                              $result=$opAdditY(move,20);
                                                                                                                                                               if (true) break $try;
                                                                                                                                                             }
                                                                                                                                                             else {
-                                                                                                                                                              $line=249;
-                                                                                                                                                              if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'w'))) {
-                                                                                                                                                                $line=250;
-                                                                                                                                                                $result=$opAdditY(move,19);
+                                                                                                                                                              $line=243;
+                                                                                                                                                              if (($opEqualY(q,$opAdditY(move,20))&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                                                                $line=244;
+                                                                                                                                                                $result=$opAdditY(move,21);
                                                                                                                                                                 if (true) break $try;
                                                                                                                                                               }
                                                                                                                                                               else {
-                                                                                                                                                                $line=251;
-                                                                                                                                                                if (($opEqualY(q,$opAdditY(move,19))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                                                  $line=252;
-                                                                                                                                                                  $result=$opAdditY(move,20);
+                                                                                                                                                                $line=245;
+                                                                                                                                                                if (($opEqualY(q,$opAdditY(move,21))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                  $line=246;
+                                                                                                                                                                  $result=$opAdditY(move,22);
                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                 }
                                                                                                                                                                 else {
-                                                                                                                                                                  $line=253;
-                                                                                                                                                                  if (($opEqualY(q,$opAdditY(move,20))&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                                                                    $line=254;
-                                                                                                                                                                    $result=$opAdditY(move,21);
+                                                                                                                                                                  $line=247;
+                                                                                                                                                                  if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                                                                    $line=248;
+                                                                                                                                                                    $result=$opAdditY(move,23);
                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                   }
                                                                                                                                                                   else {
-                                                                                                                                                                    $line=255;
-                                                                                                                                                                    if (($opEqualY(q,$opAdditY(move,21))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                      $line=256;
-                                                                                                                                                                      $result=$opAdditY(move,22);
+                                                                                                                                                                    $line=249;
+                                                                                                                                                                    if (($opEqualY(q,$opAdditY(move,23))&&$opEqualY(\u03C3,'a'))) {
+                                                                                                                                                                      $line=250;
+                                                                                                                                                                      $result=$opAdditY(move,24);
                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                     }
                                                                                                                                                                     else {
-                                                                                                                                                                      $line=257;
-                                                                                                                                                                      if (($opEqualY(q,$opAdditY(move,8))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                                                        $line=258;
-                                                                                                                                                                        $result=$opAdditY(move,23);
+                                                                                                                                                                      $line=251;
+                                                                                                                                                                      if (($opEqualY(q,$opAdditY(move,25))&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                                                                        $line=252;
+                                                                                                                                                                        $result=$opAdditY(move,26);
                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                       }
                                                                                                                                                                       else {
-                                                                                                                                                                        $line=259;
-                                                                                                                                                                        if (($opEqualY(q,$opAdditY(move,23))&&$opEqualY(\u03C3,'a'))) {
-                                                                                                                                                                          $line=260;
-                                                                                                                                                                          $result=$opAdditY(move,24);
+                                                                                                                                                                        $line=253;
+                                                                                                                                                                        if (($opEqualY(q,$opAdditY(move,26))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                          $line=254;
+                                                                                                                                                                          $result=$opAdditY(move,27);
                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                         }
                                                                                                                                                                         else {
-                                                                                                                                                                          $line=261;
-                                                                                                                                                                          if (($opEqualY(q,$opAdditY(move,25))&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                                                                            $line=262;
-                                                                                                                                                                            $result=$opAdditY(move,26);
+                                                                                                                                                                          $line=255;
+                                                                                                                                                                          if (($bool(((($opEqualY(q,$opAdditY(move,27))||$opEqualY(q,$opAdditY(move,22)))||$opEqualY(q,$opAdditY(move,18)))||$opEqualY(q,$opAdditY(move,13))))&&$opEqualY(\u03C3,')'))) {
+                                                                                                                                                                            $line=256;
+                                                                                                                                                                            $result=$opAdditY(move,28);
                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                           }
                                                                                                                                                                           else {
-                                                                                                                                                                            $line=263;
-                                                                                                                                                                            if (($opEqualY(q,$opAdditY(move,26))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                              $line=264;
-                                                                                                                                                                              $result=$opAdditY(move,27);
+                                                                                                                                                                            $line=257;
+                                                                                                                                                                            if (($opEqualY(q,$opAdditY(move,28))&&$opEqualY(\u03C3,';'))) {
+                                                                                                                                                                              $line=258;
+                                                                                                                                                                              $result=0;
                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                             }
                                                                                                                                                                             else {
-                                                                                                                                                                              $line=265;
-                                                                                                                                                                              if (($bool(((($opEqualY(q,$opAdditY(move,27))||$opEqualY(q,$opAdditY(move,22)))||$opEqualY(q,$opAdditY(move,18)))||$opEqualY(q,$opAdditY(move,13))))&&$opEqualY(\u03C3,')'))) {
-                                                                                                                                                                                $line=266;
-                                                                                                                                                                                $result=$opAdditY(move,28);
+                                                                                                                                                                              $line=260;
+                                                                                                                                                                              if (($opEqualY(q,0)&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                $line=261;
+                                                                                                                                                                                $result=$opAdditY(face,1);
                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                               }
                                                                                                                                                                               else {
-                                                                                                                                                                                $line=267;
-                                                                                                                                                                                if (($opEqualY(q,$opAdditY(move,28))&&$opEqualY(\u03C3,';'))) {
-                                                                                                                                                                                  $line=268;
-                                                                                                                                                                                  $result=0;
+                                                                                                                                                                                $line=262;
+                                                                                                                                                                                if (($opEqualY(q,$opAdditY(face,1))&&$opEqualY(\u03C3,'u'))) {
+                                                                                                                                                                                  $line=263;
+                                                                                                                                                                                  $result=$opAdditY(face,2);
                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                 }
                                                                                                                                                                                 else {
-                                                                                                                                                                                  $line=270;
-                                                                                                                                                                                  if (($opEqualY(q,0)&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                    $line=271;
-                                                                                                                                                                                    $result=$opAdditY(face,1);
+                                                                                                                                                                                  $line=264;
+                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(face,2))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                    $line=265;
+                                                                                                                                                                                    $result=$opAdditY(face,3);
                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                   }
                                                                                                                                                                                   else {
-                                                                                                                                                                                    $line=272;
-                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(face,1))&&$opEqualY(\u03C3,'u'))) {
-                                                                                                                                                                                      $line=273;
-                                                                                                                                                                                      $result=$opAdditY(face,2);
+                                                                                                                                                                                    $line=266;
+                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(face,3))&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                                                                                      $line=267;
+                                                                                                                                                                                      $result=$opAdditY(face,4);
                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                     }
                                                                                                                                                                                     else {
-                                                                                                                                                                                      $line=274;
-                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(face,2))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                        $line=275;
-                                                                                                                                                                                        $result=$opAdditY(face,3);
+                                                                                                                                                                                      $line=268;
+                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(face,4))&&$opEqualY(\u03C3,'('))) {
+                                                                                                                                                                                        $line=269;
+                                                                                                                                                                                        $result=$opAdditY(face,5);
                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                       }
                                                                                                                                                                                       else {
-                                                                                                                                                                                        $line=276;
-                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(face,3))&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                                                                                          $line=277;
-                                                                                                                                                                                          $result=$opAdditY(face,4);
+                                                                                                                                                                                        $line=270;
+                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(face,5))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                          $line=271;
+                                                                                                                                                                                          $result=$opAdditY(face,6);
                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                         }
                                                                                                                                                                                         else {
-                                                                                                                                                                                          $line=278;
-                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(face,4))&&$opEqualY(\u03C3,'('))) {
-                                                                                                                                                                                            $line=279;
-                                                                                                                                                                                            $result=$opAdditY(face,5);
+                                                                                                                                                                                          $line=272;
+                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(face,6))&&$opEqualY(\u03C3,'i'))) {
+                                                                                                                                                                                            $line=273;
+                                                                                                                                                                                            $result=$opAdditY(face,7);
                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                           }
                                                                                                                                                                                           else {
-                                                                                                                                                                                            $line=280;
-                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(face,5))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                              $line=281;
-                                                                                                                                                                                              $result=$opAdditY(face,6);
+                                                                                                                                                                                            $line=274;
+                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(face,7))&&$opEqualY(\u03C3,'g'))) {
+                                                                                                                                                                                              $line=275;
+                                                                                                                                                                                              $result=$opAdditY(face,8);
                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                             }
                                                                                                                                                                                             else {
-                                                                                                                                                                                              $line=282;
-                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(face,6))&&$opEqualY(\u03C3,'i'))) {
-                                                                                                                                                                                                $line=283;
-                                                                                                                                                                                                $result=$opAdditY(face,7);
+                                                                                                                                                                                              $line=276;
+                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(face,8))&&$opEqualY(\u03C3,'h'))) {
+                                                                                                                                                                                                $line=277;
+                                                                                                                                                                                                $result=$opAdditY(face,9);
                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                               }
                                                                                                                                                                                               else {
-                                                                                                                                                                                                $line=284;
-                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(face,7))&&$opEqualY(\u03C3,'g'))) {
-                                                                                                                                                                                                  $line=285;
-                                                                                                                                                                                                  $result=$opAdditY(face,8);
+                                                                                                                                                                                                $line=278;
+                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(face,9))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                  $line=279;
+                                                                                                                                                                                                  $result=$opAdditY(face,10);
                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                 }
                                                                                                                                                                                                 else {
-                                                                                                                                                                                                  $line=286;
-                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(face,8))&&$opEqualY(\u03C3,'h'))) {
-                                                                                                                                                                                                    $line=287;
-                                                                                                                                                                                                    $result=$opAdditY(face,9);
+                                                                                                                                                                                                  $line=280;
+                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(face,5))&&$opEqualY(\u03C3,'l'))) {
+                                                                                                                                                                                                    $line=281;
+                                                                                                                                                                                                    $result=$opAdditY(face,11);
                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                   }
                                                                                                                                                                                                   else {
-                                                                                                                                                                                                    $line=288;
-                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(face,9))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                      $line=289;
-                                                                                                                                                                                                      $result=$opAdditY(face,10);
+                                                                                                                                                                                                    $line=282;
+                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(face,11))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                                                                                                      $line=283;
+                                                                                                                                                                                                      $result=$opAdditY(face,12);
                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                     }
                                                                                                                                                                                                     else {
-                                                                                                                                                                                                      $line=290;
-                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(face,5))&&$opEqualY(\u03C3,'l'))) {
-                                                                                                                                                                                                        $line=291;
-                                                                                                                                                                                                        $result=$opAdditY(face,11);
+                                                                                                                                                                                                      $line=284;
+                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(face,12))&&$opEqualY(\u03C3,'f'))) {
+                                                                                                                                                                                                        $line=285;
+                                                                                                                                                                                                        $result=$opAdditY(face,13);
                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                       }
                                                                                                                                                                                                       else {
-                                                                                                                                                                                                        $line=292;
-                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(face,11))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                                                                                          $line=293;
-                                                                                                                                                                                                          $result=$opAdditY(face,12);
+                                                                                                                                                                                                        $line=286;
+                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(face,13))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                          $line=287;
+                                                                                                                                                                                                          $result=$opAdditY(face,14);
                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                         }
                                                                                                                                                                                                         else {
-                                                                                                                                                                                                          $line=294;
-                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(face,12))&&$opEqualY(\u03C3,'f'))) {
-                                                                                                                                                                                                            $line=295;
-                                                                                                                                                                                                            $result=$opAdditY(face,13);
+                                                                                                                                                                                                          $line=288;
+                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(face,5))&&$opEqualY(\u03C3,'a'))) {
+                                                                                                                                                                                                            $line=289;
+                                                                                                                                                                                                            $result=$opAdditY(face,15);
                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                           }
                                                                                                                                                                                                           else {
-                                                                                                                                                                                                            $line=296;
-                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(face,13))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                              $line=297;
-                                                                                                                                                                                                              $result=$opAdditY(face,14);
+                                                                                                                                                                                                            $line=290;
+                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(face,15))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                                              $line=291;
+                                                                                                                                                                                                              $result=$opAdditY(face,16);
                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                             }
                                                                                                                                                                                                             else {
-                                                                                                                                                                                                              $line=298;
-                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(face,5))&&$opEqualY(\u03C3,'a'))) {
-                                                                                                                                                                                                                $line=299;
-                                                                                                                                                                                                                $result=$opAdditY(face,15);
+                                                                                                                                                                                                              $line=292;
+                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(face,16))&&$opEqualY(\u03C3,'o'))) {
+                                                                                                                                                                                                                $line=293;
+                                                                                                                                                                                                                $result=$opAdditY(face,17);
                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                               }
                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                $line=300;
-                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(face,15))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                                                  $line=301;
-                                                                                                                                                                                                                  $result=$opAdditY(face,16);
+                                                                                                                                                                                                                $line=294;
+                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(face,17))&&$opEqualY(\u03C3,'u'))) {
+                                                                                                                                                                                                                  $line=295;
+                                                                                                                                                                                                                  $result=$opAdditY(face,18);
                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                 }
                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                  $line=302;
-                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(face,16))&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                                                                                                                    $line=303;
-                                                                                                                                                                                                                    $result=$opAdditY(face,17);
+                                                                                                                                                                                                                  $line=296;
+                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(face,18))&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                                                                                                                    $line=297;
+                                                                                                                                                                                                                    $result=$opAdditY(face,19);
                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                   }
                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                    $line=304;
-                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(face,17))&&$opEqualY(\u03C3,'u'))) {
-                                                                                                                                                                                                                      $line=305;
-                                                                                                                                                                                                                      $result=$opAdditY(face,18);
+                                                                                                                                                                                                                    $line=298;
+                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(face,19))&&$opEqualY(\u03C3,'d'))) {
+                                                                                                                                                                                                                      $line=299;
+                                                                                                                                                                                                                      $result=$opAdditY(face,20);
                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                     }
                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                      $line=306;
-                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(face,18))&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                                                                                                                        $line=307;
-                                                                                                                                                                                                                        $result=$opAdditY(face,19);
+                                                                                                                                                                                                                      $line=300;
+                                                                                                                                                                                                                      if (($bool((($opEqualY(q,$opAdditY(face,10))||$opEqualY(q,$opAdditY(face,14)))||$opEqualY(q,$opAdditY(face,20))))&&$opEqualY(\u03C3,')'))) {
+                                                                                                                                                                                                                        $line=301;
+                                                                                                                                                                                                                        $result=$opAdditY(face,21);
                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                       }
                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                        $line=308;
-                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(face,19))&&$opEqualY(\u03C3,'d'))) {
-                                                                                                                                                                                                                          $line=309;
-                                                                                                                                                                                                                          $result=$opAdditY(face,20);
+                                                                                                                                                                                                                        $line=302;
+                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(face,21))&&$opEqualY(\u03C3,';'))) {
+                                                                                                                                                                                                                          $line=303;
+                                                                                                                                                                                                                          $result=0;
                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                         }
                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                          $line=310;
-                                                                                                                                                                                                                          if (($bool((($opEqualY(q,$opAdditY(face,10))||$opEqualY(q,$opAdditY(face,14)))||$opEqualY(q,$opAdditY(face,20))))&&$opEqualY(\u03C3,')'))) {
-                                                                                                                                                                                                                            $line=311;
-                                                                                                                                                                                                                            $result=$opAdditY(face,21);
+                                                                                                                                                                                                                          $line=305;
+                                                                                                                                                                                                                          if (($opEqualY(q,0)&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                                                                                                                            $line=306;
+                                                                                                                                                                                                                            $result=$opAdditY(turn,1);
                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                           }
                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                            $line=312;
-                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(face,21))&&$opEqualY(\u03C3,';'))) {
-                                                                                                                                                                                                                              $line=313;
-                                                                                                                                                                                                                              $result=0;
+                                                                                                                                                                                                                            $line=307;
+                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(turn,1))&&$opEqualY(\u03C3,'k'))) {
+                                                                                                                                                                                                                              $line=308;
+                                                                                                                                                                                                                              $result=$opAdditY(turn,2);
                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                              $line=315;
-                                                                                                                                                                                                                              if (($opEqualY(q,0)&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                                                                                                                                $line=316;
-                                                                                                                                                                                                                                $result=$opAdditY(turn,1);
+                                                                                                                                                                                                                              $line=309;
+                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(turn,2))&&$opEqualY(\u03C3,'i'))) {
+                                                                                                                                                                                                                                $line=310;
+                                                                                                                                                                                                                                $result=$opAdditY(turn,3);
                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                               }
                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                $line=317;
-                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(turn,1))&&$opEqualY(\u03C3,'k'))) {
-                                                                                                                                                                                                                                  $line=318;
-                                                                                                                                                                                                                                  $result=$opAdditY(turn,2);
+                                                                                                                                                                                                                                $line=311;
+                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(turn,3))&&$opEqualY(\u03C3,'p'))) {
+                                                                                                                                                                                                                                  $line=312;
+                                                                                                                                                                                                                                  $result=$opAdditY(turn,4);
                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                  $line=319;
-                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(turn,2))&&$opEqualY(\u03C3,'i'))) {
-                                                                                                                                                                                                                                    $line=320;
-                                                                                                                                                                                                                                    $result=$opAdditY(turn,3);
+                                                                                                                                                                                                                                  $line=313;
+                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(turn,4))&&$opEqualY(\u03C3,';'))) {
+                                                                                                                                                                                                                                    $line=314;
+                                                                                                                                                                                                                                    $result=0;
                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                    $line=321;
-                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(turn,3))&&$opEqualY(\u03C3,'p'))) {
-                                                                                                                                                                                                                                      $line=322;
-                                                                                                                                                                                                                                      $result=$opAdditY(turn,4);
+                                                                                                                                                                                                                                    $line=316;
+                                                                                                                                                                                                                                    if (($opEqualY(q,0)&&$opEqualY(\u03C3,'m'))) {
+                                                                                                                                                                                                                                      $line=317;
+                                                                                                                                                                                                                                      $result=$opAdditY(put,1);
                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                      $line=323;
-                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(turn,4))&&$opEqualY(\u03C3,';'))) {
-                                                                                                                                                                                                                                        $line=324;
-                                                                                                                                                                                                                                        $result=0;
+                                                                                                                                                                                                                                      $line=318;
+                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,1))&&$opEqualY(\u03C3,'o'))) {
+                                                                                                                                                                                                                                        $line=319;
+                                                                                                                                                                                                                                        $result=$opAdditY(put,2);
                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                        $line=326;
-                                                                                                                                                                                                                                        if (($opEqualY(q,0)&&$opEqualY(\u03C3,'m'))) {
-                                                                                                                                                                                                                                          $line=327;
-                                                                                                                                                                                                                                          $result=$opAdditY(put,1);
+                                                                                                                                                                                                                                        $line=320;
+                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,2))&&$opEqualY(\u03C3,'v'))) {
+                                                                                                                                                                                                                                          $line=321;
+                                                                                                                                                                                                                                          $result=$opAdditY(put,3);
                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                          $line=328;
-                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,1))&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                                                                                                                                            $line=329;
-                                                                                                                                                                                                                                            $result=$opAdditY(put,2);
+                                                                                                                                                                                                                                          $line=322;
+                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,3))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                                                                                                                                            $line=323;
+                                                                                                                                                                                                                                            $result=$opAdditY(put,4);
                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                            $line=330;
-                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,2))&&$opEqualY(\u03C3,'v'))) {
-                                                                                                                                                                                                                                              $line=331;
-                                                                                                                                                                                                                                              $result=$opAdditY(put,3);
+                                                                                                                                                                                                                                            $line=325;
+                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,4))&&$opEqualY(\u03C3,'('))) {
+                                                                                                                                                                                                                                              $line=326;
+                                                                                                                                                                                                                                              $result=$opAdditY(put,5);
                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                              $line=332;
-                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,3))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                                                                                                                                $line=333;
-                                                                                                                                                                                                                                                $result=$opAdditY(put,4);
+                                                                                                                                                                                                                                              $line=327;
+                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,5))&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
+                                                                                                                                                                                                                                                $line=328;
+                                                                                                                                                                                                                                                $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                                $line=335;
-                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,4))&&$opEqualY(\u03C3,'('))) {
-                                                                                                                                                                                                                                                  $line=336;
-                                                                                                                                                                                                                                                  $result=$opAdditY(put,5);
+                                                                                                                                                                                                                                                $line=329;
+                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,6))&&$opEqualY(\u03C3,')'))) {
+                                                                                                                                                                                                                                                  $line=330;
+                                                                                                                                                                                                                                                  $result=$opAdditY(put,7);
                                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                                  $line=337;
-                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,5))&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
-                                                                                                                                                                                                                                                    $line=338;
-                                                                                                                                                                                                                                                    $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                  $line=331;
+                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,7))&&$opEqualY(\u03C3,';'))) {
+                                                                                                                                                                                                                                                    $line=332;
+                                                                                                                                                                                                                                                    $result=0;
                                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                                    $line=339;
-                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,6))&&$opEqualY(\u03C3,')'))) {
-                                                                                                                                                                                                                                                      $line=340;
-                                                                                                                                                                                                                                                      $result=$opAdditY(put,7);
+                                                                                                                                                                                                                                                    $line=334;
+                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,4))&&$opEqualY(\u03C3,'I'))) {
+                                                                                                                                                                                                                                                      $line=335;
+                                                                                                                                                                                                                                                      $result=$opAdditY(put,9);
                                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                                      $line=341;
-                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,7))&&$opEqualY(\u03C3,';'))) {
-                                                                                                                                                                                                                                                        $line=342;
-                                                                                                                                                                                                                                                        $result=0;
+                                                                                                                                                                                                                                                      $line=336;
+                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,9))&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                                                                                                                                                        $line=337;
+                                                                                                                                                                                                                                                        $result=$opAdditY(put,10);
                                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                                        $line=344;
-                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,4))&&$opEqualY(\u03C3,'I'))) {
-                                                                                                                                                                                                                                                          $line=345;
-                                                                                                                                                                                                                                                          $result=$opAdditY(put,9);
+                                                                                                                                                                                                                                                        $line=338;
+                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,10))&&$opEqualY(\u03C3,'D'))) {
+                                                                                                                                                                                                                                                          $line=339;
+                                                                                                                                                                                                                                                          $result=$opAdditY(put,11);
                                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                                          $line=346;
-                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,9))&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                                                                                                                                                            $line=347;
-                                                                                                                                                                                                                                                            $result=$opAdditY(put,10);
+                                                                                                                                                                                                                                                          $line=340;
+                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,11))&&$opEqualY(\u03C3,'i'))) {
+                                                                                                                                                                                                                                                            $line=341;
+                                                                                                                                                                                                                                                            $result=$opAdditY(put,12);
                                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                                            $line=348;
-                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,10))&&$opEqualY(\u03C3,'D'))) {
-                                                                                                                                                                                                                                                              $line=349;
-                                                                                                                                                                                                                                                              $result=$opAdditY(put,11);
+                                                                                                                                                                                                                                                            $line=342;
+                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,12))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                                                                                              $line=343;
+                                                                                                                                                                                                                                                              $result=$opAdditY(put,13);
                                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                                              $line=350;
-                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,11))&&$opEqualY(\u03C3,'i'))) {
-                                                                                                                                                                                                                                                                $line=351;
-                                                                                                                                                                                                                                                                $result=$opAdditY(put,12);
+                                                                                                                                                                                                                                                              $line=344;
+                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,13))&&$opEqualY(\u03C3,'('))) {
+                                                                                                                                                                                                                                                                $line=345;
+                                                                                                                                                                                                                                                                $result=$opAdditY(put,14);
                                                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                                                $line=352;
-                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,12))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                                                                                                  $line=353;
-                                                                                                                                                                                                                                                                  $result=$opAdditY(put,13);
+                                                                                                                                                                                                                                                                $line=346;
+                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,14))&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
+                                                                                                                                                                                                                                                                  $line=347;
+                                                                                                                                                                                                                                                                  $result=$opAdditY(put,15);
                                                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                                                  $line=354;
-                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,13))&&$opEqualY(\u03C3,'('))) {
-                                                                                                                                                                                                                                                                    $line=355;
-                                                                                                                                                                                                                                                                    $result=$opAdditY(put,14);
+                                                                                                                                                                                                                                                                  $line=348;
+                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,15))&&$opEqualY(\u03C3,','))) {
+                                                                                                                                                                                                                                                                    $line=349;
+                                                                                                                                                                                                                                                                    $result=$opAdditY(put,16);
                                                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                                                    $line=356;
-                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,14))&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
-                                                                                                                                                                                                                                                                      $line=357;
-                                                                                                                                                                                                                                                                      $result=$opAdditY(put,15);
+                                                                                                                                                                                                                                                                    $line=352;
+                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                                                                                                                                                                      $line=353;
+                                                                                                                                                                                                                                                                      $result=$opAdditY(put,17);
                                                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                                                      $line=358;
-                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,15))&&$opEqualY(\u03C3,','))) {
-                                                                                                                                                                                                                                                                        $line=359;
-                                                                                                                                                                                                                                                                        $result=$opAdditY(put,16);
+                                                                                                                                                                                                                                                                      $line=354;
+                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,17))&&$opEqualY(\u03C3,'o'))) {
+                                                                                                                                                                                                                                                                        $line=355;
+                                                                                                                                                                                                                                                                        $result=$opAdditY(put,18);
                                                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                                                        $line=362;
-                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                                                                                                                                                                          $line=363;
-                                                                                                                                                                                                                                                                          $result=$opAdditY(put,17);
+                                                                                                                                                                                                                                                                        $line=356;
+                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,18))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                                                                                                          $line=357;
+                                                                                                                                                                                                                                                                          $result=$opAdditY(put,19);
                                                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                                                          $line=364;
-                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,17))&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                                                                                                                                                                            $line=365;
-                                                                                                                                                                                                                                                                            $result=$opAdditY(put,18);
+                                                                                                                                                                                                                                                                          $line=358;
+                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,19))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                                                                                            $line=359;
+                                                                                                                                                                                                                                                                            $result=$opAdditY(put,20);
                                                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                                                            $line=366;
-                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,18))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                                                                                                              $line=367;
-                                                                                                                                                                                                                                                                              $result=$opAdditY(put,19);
+                                                                                                                                                                                                                                                                            $line=360;
+                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,20))&&$opEqualY(\u03C3,'h'))) {
+                                                                                                                                                                                                                                                                              $line=361;
+                                                                                                                                                                                                                                                                              $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                                                              $line=368;
-                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,19))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                                                                                                $line=369;
-                                                                                                                                                                                                                                                                                $result=$opAdditY(put,20);
+                                                                                                                                                                                                                                                                              $line=363;
+                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                                                                                                                                                                                $line=364;
+                                                                                                                                                                                                                                                                                $result=$opAdditY(put,21);
                                                                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                                                                $line=370;
-                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,20))&&$opEqualY(\u03C3,'h'))) {
-                                                                                                                                                                                                                                                                                  $line=371;
-                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                $line=365;
+                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,21))&&$opEqualY(\u03C3,'o'))) {
+                                                                                                                                                                                                                                                                                  $line=366;
+                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,22);
                                                                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                                                                  $line=373;
-                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                                                                                                                                                                                    $line=374;
-                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,21);
+                                                                                                                                                                                                                                                                                  $line=367;
+                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,22))&&$opEqualY(\u03C3,'u'))) {
+                                                                                                                                                                                                                                                                                    $line=368;
+                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,23);
                                                                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                                                                    $line=375;
-                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,21))&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                                                                                                                                                                                      $line=376;
-                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,22);
+                                                                                                                                                                                                                                                                                    $line=369;
+                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,23))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                                                                                                      $line=370;
+                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,24);
                                                                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                                                                      $line=377;
-                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,22))&&$opEqualY(\u03C3,'u'))) {
-                                                                                                                                                                                                                                                                                        $line=378;
-                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,23);
+                                                                                                                                                                                                                                                                                      $line=371;
+                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,24))&&$opEqualY(\u03C3,'h'))) {
+                                                                                                                                                                                                                                                                                        $line=372;
+                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                                                                        $line=379;
-                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,23))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                                                                                                          $line=380;
-                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,24);
+                                                                                                                                                                                                                                                                                        $line=374;
+                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'w'))) {
+                                                                                                                                                                                                                                                                                          $line=375;
+                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,25);
                                                                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                                                                          $line=381;
-                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,24))&&$opEqualY(\u03C3,'h'))) {
-                                                                                                                                                                                                                                                                                            $line=382;
-                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                          $line=376;
+                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,25))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                                                                                                                                                                                            $line=377;
+                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,26);
                                                                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                                                                            $line=384;
-                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'w'))) {
-                                                                                                                                                                                                                                                                                              $line=385;
-                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,25);
+                                                                                                                                                                                                                                                                                            $line=378;
+                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,26))&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                                                                                                                                                                                              $line=379;
+                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,27);
                                                                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                                                                              $line=386;
-                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,25))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                                                                                                                                                                                $line=387;
-                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,26);
+                                                                                                                                                                                                                                                                                              $line=380;
+                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,27))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                                                                                                                $line=381;
+                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                                                                                $line=388;
-                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,26))&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                                                                                                                                                                                                  $line=389;
-                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,27);
+                                                                                                                                                                                                                                                                                                $line=383;
+                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                                                                                                                                                                                                  $line=384;
+                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,28);
                                                                                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                                                                                  $line=390;
-                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,27))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                                                                                                                    $line=391;
-                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                                  $line=385;
+                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,28))&&$opEqualY(\u03C3,'a'))) {
+                                                                                                                                                                                                                                                                                                    $line=386;
+                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,29);
                                                                                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                                                                                    $line=393;
-                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,16))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                                                                                                                                                                                      $line=394;
-                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,28);
+                                                                                                                                                                                                                                                                                                    $line=387;
+                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,29))&&$opEqualY(\u03C3,'s'))) {
+                                                                                                                                                                                                                                                                                                      $line=388;
+                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,30);
                                                                                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                                                                                      $line=395;
-                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,28))&&$opEqualY(\u03C3,'a'))) {
-                                                                                                                                                                                                                                                                                                        $line=396;
-                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,29);
+                                                                                                                                                                                                                                                                                                      $line=389;
+                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,30))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                                                                                                                        $line=390;
+                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                                                                                        $line=397;
-                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,29))&&$opEqualY(\u03C3,'s'))) {
-                                                                                                                                                                                                                                                                                                          $line=398;
-                                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,30);
+                                                                                                                                                                                                                                                                                                        $line=393;
+                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,4))&&$opEqualY(\u03C3,'D'))) {
+                                                                                                                                                                                                                                                                                                          $line=394;
+                                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,31);
                                                                                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                                                                                          $line=399;
-                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,30))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                                                                                                                            $line=400;
-                                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                                          $line=395;
+                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,31))&&$opEqualY(\u03C3,'i'))) {
+                                                                                                                                                                                                                                                                                                            $line=396;
+                                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,32);
                                                                                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                                                                                            $line=403;
-                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,4))&&$opEqualY(\u03C3,'D'))) {
-                                                                                                                                                                                                                                                                                                              $line=404;
-                                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,31);
+                                                                                                                                                                                                                                                                                                            $line=397;
+                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,32))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                                                                                                                                              $line=398;
+                                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,33);
                                                                                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                                                                                              $line=405;
-                                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,31))&&$opEqualY(\u03C3,'i'))) {
-                                                                                                                                                                                                                                                                                                                $line=406;
-                                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,32);
+                                                                                                                                                                                                                                                                                                              $line=399;
+                                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,33))&&$opEqualY(\u03C3,'('))) {
+                                                                                                                                                                                                                                                                                                                $line=400;
+                                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,34);
                                                                                                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                                                                                                $line=407;
-                                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,32))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                                                                                                                                                  $line=408;
-                                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,33);
+                                                                                                                                                                                                                                                                                                                $line=401;
+                                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,34))&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
+                                                                                                                                                                                                                                                                                                                  $line=402;
+                                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,35);
                                                                                                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                                                                                                  $line=409;
-                                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,33))&&$opEqualY(\u03C3,'('))) {
-                                                                                                                                                                                                                                                                                                                    $line=410;
-                                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,34);
+                                                                                                                                                                                                                                                                                                                  $line=403;
+                                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,35))&&$opEqualY(\u03C3,','))) {
+                                                                                                                                                                                                                                                                                                                    $line=404;
+                                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,36);
                                                                                                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                                                                                                    $line=411;
-                                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,34))&&$bool(($bool(($opGreaqY(\u03C3,'0')&&$opLessqY(\u03C3,'9')))||$bool(($opGreaqY(\u03C3,'a')&&$opLessqY(\u03C3,'z'))))))) {
-                                                                                                                                                                                                                                                                                                                      $line=412;
-                                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,35);
+                                                                                                                                                                                                                                                                                                                    $line=406;
+                                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'f'))) {
+                                                                                                                                                                                                                                                                                                                      $line=407;
+                                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,37);
                                                                                                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                                                                                                      $line=413;
-                                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,35))&&$opEqualY(\u03C3,','))) {
-                                                                                                                                                                                                                                                                                                                        $line=414;
-                                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,36);
+                                                                                                                                                                                                                                                                                                                      $line=408;
+                                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,37))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                                                                                                                                                        $line=409;
+                                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,38);
                                                                                                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                                                                                                        $line=416;
-                                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'f'))) {
-                                                                                                                                                                                                                                                                                                                          $line=417;
-                                                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,37);
+                                                                                                                                                                                                                                                                                                                        $line=410;
+                                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,38))&&$opEqualY(\u03C3,'o'))) {
+                                                                                                                                                                                                                                                                                                                          $line=411;
+                                                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,39);
                                                                                                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                                                                                                          $line=418;
-                                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,37))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                                                                                                                                                            $line=419;
-                                                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,38);
+                                                                                                                                                                                                                                                                                                                          $line=412;
+                                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,39))&&$opEqualY(\u03C3,'n'))) {
+                                                                                                                                                                                                                                                                                                                            $line=413;
+                                                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,40);
                                                                                                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                                                                                                            $line=420;
-                                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,38))&&$opEqualY(\u03C3,'o'))) {
-                                                                                                                                                                                                                                                                                                                              $line=421;
-                                                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,39);
+                                                                                                                                                                                                                                                                                                                            $line=414;
+                                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,40))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                                                                                                                                              $line=415;
+                                                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                                                                                                              $line=422;
-                                                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,39))&&$opEqualY(\u03C3,'n'))) {
-                                                                                                                                                                                                                                                                                                                                $line=423;
-                                                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,40);
+                                                                                                                                                                                                                                                                                                                              $line=417;
+                                                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'r'))) {
+                                                                                                                                                                                                                                                                                                                                $line=418;
+                                                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,41);
                                                                                                                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                                                                                                                $line=424;
-                                                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,40))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                                                                                                                                                  $line=425;
-                                                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                                                                $line=419;
+                                                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,41))&&$opEqualY(\u03C3,'i'))) {
+                                                                                                                                                                                                                                                                                                                                  $line=420;
+                                                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,42);
                                                                                                                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                                                                                                                  $line=427;
-                                                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'r'))) {
-                                                                                                                                                                                                                                                                                                                                    $line=428;
-                                                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,41);
+                                                                                                                                                                                                                                                                                                                                  $line=421;
+                                                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,42))&&$opEqualY(\u03C3,'g'))) {
+                                                                                                                                                                                                                                                                                                                                    $line=422;
+                                                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,43);
                                                                                                                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                                                                                                                    $line=429;
-                                                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,41))&&$opEqualY(\u03C3,'i'))) {
-                                                                                                                                                                                                                                                                                                                                      $line=430;
-                                                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,42);
+                                                                                                                                                                                                                                                                                                                                    $line=423;
+                                                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,43))&&$opEqualY(\u03C3,'h'))) {
+                                                                                                                                                                                                                                                                                                                                      $line=424;
+                                                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,44);
                                                                                                                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                                                                                                                      $line=431;
-                                                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,42))&&$opEqualY(\u03C3,'g'))) {
-                                                                                                                                                                                                                                                                                                                                        $line=432;
-                                                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,43);
+                                                                                                                                                                                                                                                                                                                                      $line=425;
+                                                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,44))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                                                                                                                                                        $line=426;
+                                                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                                                                                                                        $line=433;
-                                                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,43))&&$opEqualY(\u03C3,'h'))) {
-                                                                                                                                                                                                                                                                                                                                          $line=434;
-                                                                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,44);
+                                                                                                                                                                                                                                                                                                                                        $line=428;
+                                                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'l'))) {
+                                                                                                                                                                                                                                                                                                                                          $line=429;
+                                                                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,45);
                                                                                                                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                                                                                                                          $line=435;
-                                                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,44))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                                                                                                                                                            $line=436;
-                                                                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                                                                          $line=430;
+                                                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,45))&&$opEqualY(\u03C3,'e'))) {
+                                                                                                                                                                                                                                                                                                                                            $line=431;
+                                                                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,46);
                                                                                                                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                                                                                                                            $line=438;
-                                                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'l'))) {
-                                                                                                                                                                                                                                                                                                                                              $line=439;
-                                                                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,45);
+                                                                                                                                                                                                                                                                                                                                            $line=432;
+                                                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(put,46))&&$opEqualY(\u03C3,'f'))) {
+                                                                                                                                                                                                                                                                                                                                              $line=433;
+                                                                                                                                                                                                                                                                                                                                              $result=$opAdditY(put,47);
                                                                                                                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                                                                                                                              $line=440;
-                                                                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,45))&&$opEqualY(\u03C3,'e'))) {
-                                                                                                                                                                                                                                                                                                                                                $line=441;
-                                                                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,46);
+                                                                                                                                                                                                                                                                                                                                              $line=434;
+                                                                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(put,47))&&$opEqualY(\u03C3,'t'))) {
+                                                                                                                                                                                                                                                                                                                                                $line=435;
+                                                                                                                                                                                                                                                                                                                                                $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                                                                                                 if (true) break $try;
                                                                                                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                                                                                                               else {
-                                                                                                                                                                                                                                                                                                                                                $line=442;
-                                                                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,46))&&$opEqualY(\u03C3,'f'))) {
-                                                                                                                                                                                                                                                                                                                                                  $line=443;
-                                                                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,47);
+                                                                                                                                                                                                                                                                                                                                                $line=437;
+                                                                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'b'))) {
+                                                                                                                                                                                                                                                                                                                                                  $line=438;
+                                                                                                                                                                                                                                                                                                                                                  $result=$opAdditY(put,48);
                                                                                                                                                                                                                                                                                                                                                   if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                                                                 else {
-                                                                                                                                                                                                                                                                                                                                                  $line=444;
-                                                                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,47))&&$opEqualY(\u03C3,'t'))) {
-                                                                                                                                                                                                                                                                                                                                                    $line=445;
-                                                                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                                                                                  $line=439;
+                                                                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(put,48))&&$opEqualY(\u03C3,'a'))) {
+                                                                                                                                                                                                                                                                                                                                                    $line=440;
+                                                                                                                                                                                                                                                                                                                                                    $result=$opAdditY(put,49);
                                                                                                                                                                                                                                                                                                                                                     if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                                                                                                                   else {
-                                                                                                                                                                                                                                                                                                                                                    $line=447;
-                                                                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,36))&&$opEqualY(\u03C3,'b'))) {
-                                                                                                                                                                                                                                                                                                                                                      $line=448;
-                                                                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,48);
+                                                                                                                                                                                                                                                                                                                                                    $line=441;
+                                                                                                                                                                                                                                                                                                                                                    if (($opEqualY(q,$opAdditY(put,49))&&$opEqualY(\u03C3,'c'))) {
+                                                                                                                                                                                                                                                                                                                                                      $line=442;
+                                                                                                                                                                                                                                                                                                                                                      $result=$opAdditY(put,50);
                                                                                                                                                                                                                                                                                                                                                       if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                                                                     else {
-                                                                                                                                                                                                                                                                                                                                                      $line=449;
-                                                                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,48))&&$opEqualY(\u03C3,'a'))) {
-                                                                                                                                                                                                                                                                                                                                                        $line=450;
-                                                                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,49);
+                                                                                                                                                                                                                                                                                                                                                      $line=443;
+                                                                                                                                                                                                                                                                                                                                                      if (($opEqualY(q,$opAdditY(put,50))&&$opEqualY(\u03C3,'k'))) {
+                                                                                                                                                                                                                                                                                                                                                        $line=444;
+                                                                                                                                                                                                                                                                                                                                                        $result=$opAdditY(put,6);
                                                                                                                                                                                                                                                                                                                                                         if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                                                                                                                       else {
-                                                                                                                                                                                                                                                                                                                                                        $line=451;
-                                                                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,$opAdditY(put,49))&&$opEqualY(\u03C3,'c'))) {
-                                                                                                                                                                                                                                                                                                                                                          $line=452;
-                                                                                                                                                                                                                                                                                                                                                          $result=$opAdditY(put,50);
+                                                                                                                                                                                                                                                                                                                                                        $line=446;
+                                                                                                                                                                                                                                                                                                                                                        if (($opEqualY(q,0)&&$opEqualY(\u03C3,'E'))) {
+                                                                                                                                                                                                                                                                                                                                                          $line=447;
+                                                                                                                                                                                                                                                                                                                                                          $result=$opAdditY(skipe,1);
                                                                                                                                                                                                                                                                                                                                                           if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                                                                         else {
-                                                                                                                                                                                                                                                                                                                                                          $line=453;
-                                                                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(put,50))&&$opEqualY(\u03C3,'k'))) {
-                                                                                                                                                                                                                                                                                                                                                            $line=454;
-                                                                                                                                                                                                                                                                                                                                                            $result=$opAdditY(put,6);
+                                                                                                                                                                                                                                                                                                                                                          $line=448;
+                                                                                                                                                                                                                                                                                                                                                          if (($opEqualY(q,$opAdditY(skipe,1))&&$opEqualY(\u03C3,'N'))) {
+                                                                                                                                                                                                                                                                                                                                                            $line=449;
+                                                                                                                                                                                                                                                                                                                                                            $result=$opAdditY(skipe,2);
                                                                                                                                                                                                                                                                                                                                                             if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                                                                                                           else {
-                                                                                                                                                                                                                                                                                                                                                            $line=456;
-                                                                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,0)&&$opEqualY(\u03C3,'E'))) {
-                                                                                                                                                                                                                                                                                                                                                              $line=457;
-                                                                                                                                                                                                                                                                                                                                                              $result=$opAdditY(skipe,1);
+                                                                                                                                                                                                                                                                                                                                                            $line=450;
+                                                                                                                                                                                                                                                                                                                                                            if (($opEqualY(q,$opAdditY(skipe,2))&&$opEqualY(\u03C3,'D'))) {
+                                                                                                                                                                                                                                                                                                                                                              $line=451;
+                                                                                                                                                                                                                                                                                                                                                              $result=0;
                                                                                                                                                                                                                                                                                                                                                               if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                                                             else {
-                                                                                                                                                                                                                                                                                                                                                              $line=458;
-                                                                                                                                                                                                                                                                                                                                                              if (($opEqualY(q,$opAdditY(skipe,1))&&$opEqualY(\u03C3,'N'))) {
-                                                                                                                                                                                                                                                                                                                                                                $line=459;
-                                                                                                                                                                                                                                                                                                                                                                $result=$opAdditY(skipe,2);
-                                                                                                                                                                                                                                                                                                                                                                if (true) break $try;
-                                                                                                                                                                                                                                                                                                                                                              }
-                                                                                                                                                                                                                                                                                                                                                              else {
-                                                                                                                                                                                                                                                                                                                                                                $line=460;
-                                                                                                                                                                                                                                                                                                                                                                if (($opEqualY(q,$opAdditY(skipe,2))&&$opEqualY(\u03C3,'D'))) {
-                                                                                                                                                                                                                                                                                                                                                                  $line=461;
-                                                                                                                                                                                                                                                                                                                                                                  $result=$opAdditY(skipe,3);
-                                                                                                                                                                                                                                                                                                                                                                  if (true) break $try;
-                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                                else {
-                                                                                                                                                                                                                                                                                                                                                                  $line=462;
-                                                                                                                                                                                                                                                                                                                                                                  if (($opEqualY(q,$opAdditY(skipe,3))&&$opEqualY(\u03C3,' '))) {
-                                                                                                                                                                                                                                                                                                                                                                    $line=463;
-                                                                                                                                                                                                                                                                                                                                                                    $result=0;
-                                                                                                                                                                                                                                                                                                                                                                    if (true) break $try;
-                                                                                                                                                                                                                                                                                                                                                                  }
-                                                                                                                                                                                                                                                                                                                                                                  else {
-                                                                                                                                                                                                                                                                                                                                                                    $line=465;
-                                                                                                                                                                                                                                                                                                                                                                    $result=0;
-                                                                                                                                                                                                                                                                                                                                                                    if (true) break $try;
-                                                                                                                                                                                                                                                                                                                                                                  }
-                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                                                                                                                                                              $line=453;
+                                                                                                                                                                                                                                                                                                                                                              $result=0;
+                                                                                                                                                                                                                                                                                                                                                              if (true) break $try;
                                                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                                                                                                         }
@@ -1768,7 +1720,7 @@ public final class proyecto {
           }
         }
       }
-      $line=467;
+      $line=455;
       $rethrow(new RuntimeException("The function \"\u03B4(q:Object,\u03C3:Object)\" did not return a value."));
     }
     catch (Throwable $throwable) {
@@ -1780,121 +1732,145 @@ public final class proyecto {
     int $line=0;
     Object $result=null;
     $try:try {
-      $line=470;
+      $line=458;
       if ($opEqualY(\u03C3,'(')) {
-        $line=471;
+        $line=459;
         $result='(';
         if (true) break $try;
       }
       else {
-        $line=472;
+        $line=460;
         if ($opEqualY(\u03C3,')')) {
-          $line=473;
+          $line=461;
           $result=')';
           if (true) break $try;
         }
         else {
-          $line=474;
+          $line=462;
           if ($opEqualY(\u03C3,'[')) {
-            $line=475;
+            $line=463;
             $result='[';
             if (true) break $try;
           }
           else {
-            $line=476;
+            $line=464;
             if ($opEqualY(\u03C3,']')) {
-              $line=477;
+              $line=465;
               $result=']';
               if (true) break $try;
             }
             else {
-              $line=478;
+              $line=466;
               if ($opEqualY(\u03C3,'{')) {
-                $line=479;
+                $line=467;
                 $result='{';
                 if (true) break $try;
               }
               else {
-                $line=480;
+                $line=468;
                 if ($opEqualY(\u03C3,'}')) {
-                  $line=481;
+                  $line=469;
                   $result='}';
                   if (true) break $try;
                 }
                 else {
-                  $line=482;
+                  $line=470;
                   if ($opEqualY(\u03C3,';')) {
-                    $line=483;
+                    $line=471;
                     $result=';';
                     if (true) break $try;
                   }
                   else {
-                    $line=484;
+                    $line=472;
                     if ($opEqualY(\u03C3,',')) {
-                      $line=485;
+                      $line=473;
                       $result=',';
                       if (true) break $try;
                     }
                     else {
-                      $line=486;
+                      $line=474;
                       if (($opEqualY(q,$opAdditY(put,20))&&$opEqualY(\u03C3,'h'))) {
-                        $line=487;
+                        $line=475;
                         $result='N';
                         if (true) break $try;
                       }
                       else {
-                        $line=488;
+                        $line=476;
                         if (($opEqualY(q,$opAdditY(put,24))&&$opEqualY(\u03C3,'h'))) {
-                          $line=489;
+                          $line=477;
                           $result='S';
                           if (true) break $try;
                         }
                         else {
-                          $line=490;
+                          $line=478;
                           if (($opEqualY(q,$opAdditY(put,27))&&$opEqualY(\u03C3,'t'))) {
-                            $line=491;
+                            $line=479;
                             $result='W';
                             if (true) break $try;
                           }
                           else {
-                            $line=492;
+                            $line=480;
                             if (($opEqualY(q,$opAdditY(put,30))&&$opEqualY(\u03C3,'t'))) {
-                              $line=493;
+                              $line=481;
                               $result='E';
                               if (true) break $try;
                             }
                             else {
-                              $line=495;
+                              $line=483;
                               if (($opEqualY(q,$opAdditY(put,40))&&$opEqualY(\u03C3,'t'))) {
-                                $line=496;
+                                $line=484;
                                 $result='f';
                                 if (true) break $try;
                               }
                               else {
-                                $line=497;
+                                $line=485;
                                 if (($opEqualY(q,$opAdditY(put,44))&&$opEqualY(\u03C3,'t'))) {
-                                  $line=498;
+                                  $line=486;
                                   $result='r';
                                   if (true) break $try;
                                 }
                                 else {
-                                  $line=499;
+                                  $line=487;
                                   if (($opEqualY(q,$opAdditY(put,47))&&$opEqualY(\u03C3,'t'))) {
-                                    $line=500;
+                                    $line=488;
                                     $result='l';
                                     if (true) break $try;
                                   }
                                   else {
-                                    $line=501;
+                                    $line=489;
                                     if (($opEqualY(q,$opAdditY(put,50))&&$opEqualY(\u03C3,'k'))) {
-                                      $line=502;
+                                      $line=490;
                                       $result='b';
                                       if (true) break $try;
                                     }
                                     else {
-                                      $line=504;
-                                      $result="";
-                                      if (true) break $try;
+                                      $line=491;
+                                      if (($opEqualY(q,6)&&$opEqualY(\u03C3,'R'))) {
+                                        $line=492;
+                                        $result='R';
+                                        if (true) break $try;
+                                      }
+                                      else {
+                                        $line=493;
+                                        if (($opEqualY(q,17)&&$opEqualY(\u03C3,'N'))) {
+                                          $line=494;
+                                          $result='B';
+                                          if (true) break $try;
+                                        }
+                                        else {
+                                          $line=495;
+                                          if (($opEqualY(q,$opAdditY(skipe,2))&&$opEqualY(\u03C3,'D'))) {
+                                            $line=496;
+                                            $result='E';
+                                            if (true) break $try;
+                                          }
+                                          else {
+                                            $line=498;
+                                            $result="";
+                                            if (true) break $try;
+                                          }
+                                        }
+                                      }
                                     }
                                   }
                                 }
@@ -1911,7 +1887,7 @@ public final class proyecto {
           }
         }
       }
-      $line=506;
+      $line=500;
       $rethrow(new RuntimeException("The function \"h(q:Object,\u03C3:Object)\" did not return a value."));
     }
     catch (Throwable $throwable) {
