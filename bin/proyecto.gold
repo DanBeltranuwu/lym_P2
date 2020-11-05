@@ -14,9 +14,11 @@ procedure main ( args : String [ ] ) begin
 	turn:= face+21
 	skipe:=turn+4
 	ends:=skipe+3
-	Q := (0‥ends)
+	nope:= ends+3
+	
+	Q := (0‥nope)
 	Σ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}','0','1','2','3','4','5','6','7','8','9',' ' }
-	Γ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}' }
+	Γ := { 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z', ',' ,'_', ';','(',')','[',']','{','}','!' }
 	q := 0 
 	F := {0, skipe+3,7,13,18}
 	
@@ -29,7 +31,7 @@ end
 	function g (q) begin
 		if q==11 then
 			return 'V'
-		elseif q==13 then
+		elseif q==13||q==37 then
 			return 'x'
 		elseif q==24 then
 			return 'A'
@@ -77,6 +79,10 @@ end
 		    return 'x'
 		elseif q==put+35 then
 		    return 'x'
+		elseif q==43 then
+			return 'C'
+		elseif q==51 then
+			return 'B'
 		else
 			return λ
 		end
@@ -449,6 +455,15 @@ end
 	 		return skipe+2
 	 	elseif q==skipe+2 && σ=='D' then
 	 		return 0
+//-----------------------------------------------------------------
+	 	elseif q==0 && σ=='n' then
+	 		return ends+1
+	 	elseif q==ends+1 && σ=='o' then
+	 		return ends+2
+	 	elseif q==ends+2 && σ=='t' then
+	 		return ends+3
+	 	elseif q==ends+2 && σ=='(' then
+	 		return 0
 	 	else 
 	 		return 0
 	 	end
@@ -494,6 +509,8 @@ end
 			return 'B'
 		elseif q==skipe+2 && σ=='D' then
 			return 'E'
+		elseif q==ends+2 && σ=='t' then
+			return '!'
 		else
 			return λ
 		end
